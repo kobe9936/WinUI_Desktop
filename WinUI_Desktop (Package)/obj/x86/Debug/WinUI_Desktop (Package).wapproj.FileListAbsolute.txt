@@ -292,7 +292,6 @@ C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\obj\x86\Debug\
 C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\obj\x86\Debug\Microsoft.UI.Xaml.Controls.pri.xml
 C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\obj\x86\Debug\WinUI_Desktop (Package).wapproj.LastBuild.txt
-C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\obj\x86\Debug\l4fth2cl.v3a\Microsoft.UI.Xaml.Controls.pri.xml
 C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\bin\x86\Debug\WinUI_Desktop\App.xbf
 C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\bin\x86\Debug\WinUI_Desktop\WinUI_Desktop.deps.json
 C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\bin\x86\Debug\WinUI_Desktop\WinUI_Desktop.exe
@@ -590,3 +589,6 @@ C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\bin\x86\Debug\
 C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\bin\x86\Debug\WinUI_Desktop\MainWindow.xbf
 C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\bin\x86\Debug\WinUI_Desktop\MicrosoftHomePage.xbf
 C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\obj\x86\Debug\pcy3jzef.bad\Microsoft.UI.Xaml.Controls.pri.xml
+C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\bin\x86\Debug\WinUI_Desktop\MicrosoftHomePage.xbf
+C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\bin\x86\Debug\WinUI_Desktop\Styles\Styles.xbf
+C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\obj\x86\Debug\a5kat5pk.kyu\Microsoft.UI.Xaml.Controls.pri.xml

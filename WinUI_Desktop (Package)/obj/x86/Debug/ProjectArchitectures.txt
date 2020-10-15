@@ -1,2 +1,2 @@
-C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\WinUI_Desktop (Package).wapproj;x86
-C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\WinUI_Desktop.csproj;x86
+C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\WinUI_Desktop (Package).wapproj;x86
+C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop\WinUI_Desktop.csproj;x86
