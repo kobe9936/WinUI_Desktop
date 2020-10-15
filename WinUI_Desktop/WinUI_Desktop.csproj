@@ -13,10 +13,22 @@
     <RuntimeIdentifier>win-$(Platform)</RuntimeIdentifier>
   </PropertyGroup>
 
+
+  <ItemGroup>
+    <None Remove="MicrosoftHomePage.xaml" />
+    <None Remove="Styles\Styles.xaml" />
+  </ItemGroup>
+
   <ItemGroup>
     <PackageReference Include="Microsoft.VCRTForwarders.140" Version="1.0.6" />
     <PackageReference Include="Microsoft.WinUI" Version="3.0.0-preview2.200713.0" />
     <Manifest Include="$(ApplicationManifest)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="MicrosoftHomePage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
 
   <ItemGroup>

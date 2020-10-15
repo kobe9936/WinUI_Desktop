@@ -14,6 +14,18 @@
 						<Value>WinUI_Desktop\MainWindow.xbf</Value>
 					</Candidate>
 				</NamedResource>
+				<NamedResource name="MicrosoftHomePage.xbf" uri="ms-resource://WinUI_Desktop/Files/WinUI_Desktop/MicrosoftHomePage.xbf">
+					<Candidate type="Path">
+						<Value>WinUI_Desktop\MicrosoftHomePage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Styles">
+					<NamedResource name="Styles.xbf" uri="ms-resource://WinUI_Desktop/Files/WinUI_Desktop/Styles/Styles.xbf">
+						<Candidate type="Path">
+							<Value>WinUI_Desktop\Styles\Styles.xbf</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
 			</ResourceMapSubtree>
 		</ResourceMapSubtree>
 	</ResourceMap>

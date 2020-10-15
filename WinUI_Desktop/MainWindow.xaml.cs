@@ -13,8 +13,6 @@ using Microsoft.UI.Xaml.Data;
 using Microsoft.UI.Xaml.Input;
 using Microsoft.UI.Xaml.Media;
 using Microsoft.UI.Xaml.Navigation;
-using Microsoft.UI.Xaml.Automation.Peers;
-
 
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
@@ -26,16 +24,21 @@ namespace WinUI_Desktop
     /// </summary>
     public sealed partial class MainWindow : Window
     {
-
         public MainWindow()
         {
             this.InitializeComponent();
-
+            this.Title = "Main Window";
+            ScenarioFrame.Navigate(typeof(MicrosoftHomePage));
         }
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Splitter.IsPaneOpen = !Splitter.IsPaneOpen;
         }
 
+        async void Footer_Click(object sender, RoutedEventArgs e)
+        {
+            await Windows.System.Launcher.LaunchUriAsync(new Uri(((HyperlinkButton)sender).Tag.ToString()));
+        }
     }
 }
