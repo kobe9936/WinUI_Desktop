@@ -1,7 +1,8 @@
 C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\WinUI_Desktop\App.xbf
+C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\WinUI_Desktop\GooglePage.xbf
+C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\WinUI_Desktop\HomePage.xbf
 C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\WinUI_Desktop\MainWindow.xbf
 C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\WinUI_Desktop\MicrosoftHomePage.xbf
-C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\WinUI_Desktop\Styles\Styles.xbf
 C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Images\microsoft-sdk.png
 C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Images\SplashScreen.scale-200.png
 C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Images\LockScreenLogo.scale-200.png
@@ -9,6 +10,7 @@ C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Images\Square1
 C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Images\Square44x44Logo.scale-200.png
 C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Images\Square44x44Logo.targetsize-24_altform-unplated.png
 C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Images\StoreLogo.png
+C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Images\tsmc-logo.png
 C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Images\Wide310x150Logo.scale-200.png
 C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Images\windows-sdk.png
 C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\x86\ucrtbased.dll

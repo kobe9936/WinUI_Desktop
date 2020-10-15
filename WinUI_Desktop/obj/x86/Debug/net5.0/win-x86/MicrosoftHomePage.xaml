@@ -10,7 +10,7 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <WebView2 x:ConnectionId='2' x:Name="myWebView" Source="https://www.microsoft.com/zh-tw"/>
+        <WebView2 Source="https://www.microsoft.com/zh-tw"/>
     </Grid>
 </Page>
 

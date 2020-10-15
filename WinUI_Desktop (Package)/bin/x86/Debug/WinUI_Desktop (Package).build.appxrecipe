@@ -28,14 +28,17 @@
     <AppxPackagedFile Include="C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\WinUI_Desktop\App.xbf">
       <PackagePath>WinUI_Desktop\App.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\WinUI_Desktop\GooglePage.xbf">
+      <PackagePath>WinUI_Desktop\GooglePage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\WinUI_Desktop\HomePage.xbf">
+      <PackagePath>WinUI_Desktop\HomePage.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\WinUI_Desktop\MainWindow.xbf">
       <PackagePath>WinUI_Desktop\MainWindow.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\WinUI_Desktop\MicrosoftHomePage.xbf">
       <PackagePath>WinUI_Desktop\MicrosoftHomePage.xbf</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\WinUI_Desktop\Styles\Styles.xbf">
-      <PackagePath>WinUI_Desktop\Styles\Styles.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Images\microsoft-sdk.png">
       <PackagePath>Images\microsoft-sdk.png</PackagePath>
@@ -62,6 +65,9 @@
     <AppxPackagedFile Include="C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Images\StoreLogo.png">
       <PackagePath>Images\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Images\tsmc-logo.png">
+      <PackagePath>Images\tsmc-logo.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Images\Wide310x150Logo.scale-200.png">
       <PackagePath>Images\Wide310x150Logo.scale-200.png</PackagePath>

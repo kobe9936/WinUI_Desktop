@@ -11,13 +11,7 @@
     <SelfContained>true</SelfContained>
     <RuntimeIdentifiers>win-x86;win-x64</RuntimeIdentifiers>
     <RuntimeIdentifier>win-$(Platform)</RuntimeIdentifier>
-  </PropertyGroup>
-
-
-  <ItemGroup>
-    <None Remove="MicrosoftHomePage.xaml" />
-    <None Remove="Styles\Styles.xaml" />
-  </ItemGroup>
+  </PropertyGroup>  
 
   <ItemGroup>
     <PackageReference Include="Microsoft.VCRTForwarders.140" Version="1.0.6" />
@@ -26,6 +20,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Page Update="GooglePage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Update="HomePage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Update="MicrosoftHomePage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -6,70 +6,49 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
-    
-        <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="*"/>
-            </Grid.RowDefinitions>
-            <SplitView x:Name="Splitter" IsPaneOpen="True" Grid.Row="1" DisplayMode="Inline">
-                <SplitView.Pane>
-                    <RelativePanel Margin="10,0,0,0">
-                        <TextBlock x:Name="SampleTitle" Text="WinUI3 Desktop Sample"  Style="{StaticResource SampleHeaderTextStyle}" TextWrapping="Wrap" Margin="0,10,0,0" />
-                        <ListBox x:Name="ScenarioControl"
-                     SelectionMode="Single" HorizontalAlignment="Left" Background="Transparent" BorderThickness="0"
-                     VerticalAlignment="Top" RelativePanel.Below="SampleTitle" Margin="0,10,0,0" RelativePanel.Above="FooterPanel">
-                            <ListBox.ItemTemplate>
-                                <DataTemplate>
-                                    <TextBlock Text="QQQQQQQQQQQQQQQQQ" TextWrapping="Wrap" Margin="0,10,0,0" />
-                                </DataTemplate>
-                            </ListBox.ItemTemplate>
-                        </ListBox>
-                        <StackPanel x:Name="FooterPanel" Orientation="Vertical" RelativePanel.AlignBottomWithPanel="True">
-                            <Image Source="/Images/microsoft-sdk.png" AutomationProperties.Name="Microsoft Logo" Stretch="None" HorizontalAlignment="Left" Margin="10,0,0,0"/>
-                            <TextBlock x:Name="Copyright" Text="&#xA9; TSMC Corporation. All rights reserved." Style="{StaticResource CopyrightTextStyle}"
-                                       RelativePanel.Above="LinksPanel" Margin="10,10,0,0"
-                                       TextWrapping="Wrap"/>
-                            <StackPanel x:Name="LinksPanel" Orientation="Horizontal" Margin="10,10,0,10">
-                                <HyperlinkButton Content="Trademarks" Tag="http://go.microsoft.com/fwlink/?LinkID=623755"
-                            Click="Footer_Click" FontSize="12" Style="{StaticResource HyperlinkStyle}" />
-                                <TextBlock Text="|"  Style="{StaticResource SeparatorStyle}" VerticalAlignment="Center" />
-                                <HyperlinkButton x:Name="PrivacyLink" Content="Privacy" Tag="http://privacy.microsoft.com" Click="Footer_Click" FontSize="12" Style="{StaticResource HyperlinkStyle}"/>
-                            </StackPanel>
-                        </StackPanel>
-                    </RelativePanel>
-                </SplitView.Pane>
-                <RelativePanel>
-                    <Frame x:Name="ScenarioFrame" Margin="5" RelativePanel.AlignTopWithPanel="True" RelativePanel.Above="StatusPanel" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignLeftWithPanel="True"/>
-                    <StackPanel x:Name="StatusPanel" Orientation="Vertical" RelativePanel.AlignBottomWithPanel="True" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignLeftWithPanel="True">
-                        <TextBlock x:Name="StatusLabel" Margin="10,0,0,10" TextWrapping="Wrap" Text="Status:" />
-                    <Border x:Name="StatusBorder" Margin="0,0,0,0">
-                        <ScrollViewer VerticalScrollMode="Auto"  VerticalScrollBarVisibility="Auto" MaxHeight="200">
-                            <!-- Use LiveSetting to enable screen readers to announce the status update. -->
-                            <TextBlock x:Name="StatusBlock" FontWeight="Bold" AutomationProperties.LiveSetting="Assertive"
-                                                       MaxWidth="{Binding ElementName=Splitter, Path=ActualWidth}" Margin="10,10,10,20" TextWrapping="Wrap"  />
-                        </ScrollViewer>
-                    </Border>
-                </StackPanel>
-                </RelativePanel>
-            </SplitView>
-            <StackPanel x:Name="HeaderPanel" Orientation="Horizontal">
-                <Border Background="{ThemeResource SystemControlBackgroundChromeMediumBrush}" Grid.Row="0">
-                    <ToggleButton Style="{StaticResource SymbolButton}" Click="Button_Click" VerticalAlignment="Top" Foreground="{ThemeResource ApplicationForegroundThemeBrush}">
-                        <ToggleButton.Content>
-                            <FontIcon x:Name="Hamburger" FontFamily="Segoe MDL2 Assets" Glyph="&#xE700;" Margin="0,10,0,0"/>
-                        </ToggleButton.Content>
-                    </ToggleButton>
-                </Border>
-                <!-- Use AutomationProperties.AccessibilityView to let a screen reader know that the image is purely decorative.
-                     (If the Image conveyed useful information we'd not use AccessibilityView, but instead provide a localized 
-                     name for the Image to convey its purpose.) -->
-                <Image x:Name="WindowsLogo" Stretch="None" Source="/Images/windows-sdk.png" Margin="0,15,0,0" AutomationProperties.AccessibilityView="Raw" />
-                <TextBlock x:Name="Header" Text="Windows Platform sample" Style="{StaticResource TagLineTextStyle}" Margin="0,25,0,0" />
-            </StackPanel>
-        </Grid>
 
-    
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
 
+        <StackPanel x:Name="HeaderPanel" Orientation="Horizontal" Height="35">
+            <Image x:Name="TSMCLogo" Stretch="Uniform" Source="/Images/tsmc-logo.png" Margin="5,5,0,5"   />
+        </StackPanel>
 
+        <NavigationView Grid.Row="1"
+                x:Name="NavigationViewControl"            
+                ItemInvoked="NavView_ItemInvoked"
+                IsSettingsVisible="False">
+            <NavigationView.MenuItems>
+                <NavigationViewItem Icon="Home" Content="Home" x:Name="NavViewItem_Home"/>
+                <NavigationViewItem Icon="Globe" Content="Microsoft" x:Name="NavViewItem_Microsoft"/>
+                <NavigationViewItem Icon="World" Content="Google" x:Name="NavViewItem_Google"/>
+                <NavigationViewItem Icon="AllApps" Content="Controls"/>
+                <NavigationViewItem Icon="Copy" Content="Copy"/>
+                <NavigationViewItem Icon="Delete" Content="Delete"/>
+                <NavigationViewItem Icon="Phone" Content="Phone"/>
+                <NavigationViewItem Icon="Refresh" Content="Refresh"/>
+                <NavigationViewItem Icon="Shop" Content="Shop"/>
+                <NavigationViewItem Icon="SlideShow" Content="SlideShow"/>
+                <NavigationViewItem Icon="Calendar" Content="Calendar"/>
+                <NavigationViewItem Icon="Clock" Content="Clock"/>
+                <NavigationViewItem Icon="Mail" Content="Mail"/>
+                <NavigationViewItem Icon="Font" Content="Text"/>
+                <NavigationViewItem Icon="Message" Content="Message"/>
+                <NavigationViewItem Icon="Permissions" Content="Permissions"/>
+
+            </NavigationView.MenuItems>
+            <NavigationView.AutoSuggestBox>
+                <AutoSuggestBox QueryIcon="Find"/>
+            </NavigationView.AutoSuggestBox>
+
+            <NavigationView.PaneFooter>
+                <NavigationViewItem Icon="Contact" Content="User"/>
+            </NavigationView.PaneFooter>
+
+            <Frame x:Name="rootFrame"/>
+        </NavigationView>
+    </Grid>
 </Window>

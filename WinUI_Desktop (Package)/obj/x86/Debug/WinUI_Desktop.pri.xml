@@ -9,6 +9,16 @@
 						<Value>WinUI_Desktop\App.xbf</Value>
 					</Candidate>
 				</NamedResource>
+				<NamedResource name="GooglePage.xbf" uri="ms-resource://WinUI_Desktop/Files/WinUI_Desktop/GooglePage.xbf">
+					<Candidate type="Path">
+						<Value>WinUI_Desktop\GooglePage.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="HomePage.xbf" uri="ms-resource://WinUI_Desktop/Files/WinUI_Desktop/HomePage.xbf">
+					<Candidate type="Path">
+						<Value>WinUI_Desktop\HomePage.xbf</Value>
+					</Candidate>
+				</NamedResource>
 				<NamedResource name="MainWindow.xbf" uri="ms-resource://WinUI_Desktop/Files/WinUI_Desktop/MainWindow.xbf">
 					<Candidate type="Path">
 						<Value>WinUI_Desktop\MainWindow.xbf</Value>
@@ -19,13 +29,6 @@
 						<Value>WinUI_Desktop\MicrosoftHomePage.xbf</Value>
 					</Candidate>
 				</NamedResource>
-				<ResourceMapSubtree name="Styles">
-					<NamedResource name="Styles.xbf" uri="ms-resource://WinUI_Desktop/Files/WinUI_Desktop/Styles/Styles.xbf">
-						<Candidate type="Path">
-							<Value>WinUI_Desktop\Styles\Styles.xbf</Value>
-						</Candidate>
-					</NamedResource>
-				</ResourceMapSubtree>
 			</ResourceMapSubtree>
 		</ResourceMapSubtree>
 	</ResourceMap>

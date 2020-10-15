@@ -14,6 +14,7 @@ using Microsoft.UI.Xaml.Input;
 using Microsoft.UI.Xaml.Media;
 using Microsoft.UI.Xaml.Navigation;
 
+
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
 
@@ -28,17 +29,20 @@ namespace WinUI_Desktop
         {
             this.InitializeComponent();
             this.Title = "Main Window";
-            ScenarioFrame.Navigate(typeof(MicrosoftHomePage));
+            rootFrame.Navigate(typeof(HomePage));
         }
+        private void NavView_ItemInvoked(NavigationView sender, NavigationViewItemInvokedEventArgs args)
+        {         
+            Type pageType = typeof(HomePage);
+            var invokedItem = args.InvokedItemContainer;
+            if (invokedItem == NavViewItem_Home)
+                pageType = typeof(HomePage);
+            else if(invokedItem == NavViewItem_Microsoft)
+                pageType = typeof(MicrosoftHomePage);
+            else if (invokedItem == NavViewItem_Google)
+                pageType = typeof(GooglePage);
+            rootFrame.Navigate(pageType);
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            Splitter.IsPaneOpen = !Splitter.IsPaneOpen;
-        }
-
-        async void Footer_Click(object sender, RoutedEventArgs e)
-        {
-            await Windows.System.Launcher.LaunchUriAsync(new Uri(((HyperlinkButton)sender).Tag.ToString()));
         }
     }
 }
