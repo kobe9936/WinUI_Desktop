@@ -10,4 +10,4 @@ products:
 
 # WinUI_Desktop xaml
 
-![WinUI_Desktop Screenshot](README_Images/WinUI_Desktop.PNG)
+![WinUI_Desktop Screenshot](README_Images/WinUI_Desktop.png)
