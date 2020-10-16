@@ -658,3 +658,9 @@ C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\obj\x86\Debug\net5.0\win
 C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\obj\x86\Debug\net5.0\win-x86\LoginPage.xbf
 C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\WinUI_Desktop\LoginPage.xbf
 C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\LoginPage.xbf
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\WinUI_Desktop\WebPage.xbf
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\WebPage.xbf
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\obj\x86\Debug\net5.0\win-x86\WebPage.g.i.cs
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\obj\x86\Debug\net5.0\win-x86\WebPage.g.cs
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\obj\x86\Debug\net5.0\win-x86\WebPage.xaml
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\obj\x86\Debug\net5.0\win-x86\WebPage.xbf

@@ -34,16 +34,9 @@ namespace WinUI_Desktop
 
         private void LoginBtn_Click(object sender, RoutedEventArgs e)
         {
-
             LoginButton.Label = "Login";
             //LoginButton.Icon = new SymbolIcon(Symbol.Contact); ;
             rootFrame.Navigate(typeof(LoginPage));
-
-        }
-
-        private void onShouldStartLoadWithRequest()
-        {
-
         }
 
         private void NavView_ItemInvoked(NavigationView sender, NavigationViewItemInvokedEventArgs args)
@@ -52,13 +45,11 @@ namespace WinUI_Desktop
             var invokedItem = args.InvokedItemContainer;
             if (invokedItem == NavViewItem_Home)
                 pageType = typeof(HomePage);
-            else if(invokedItem == NavViewItem_Microsoft)
+            else if (invokedItem == NavViewItem_Microsoft)
                 pageType = typeof(MicrosoftHomePage);
-            else if (invokedItem == NavViewItem_Google)
-                pageType = typeof(GooglePage);
-
+            else if (invokedItem == NavViewItem_Web)
+                pageType = typeof(WebPage);
             rootFrame.Navigate(pageType);
-
         }
     }
 }

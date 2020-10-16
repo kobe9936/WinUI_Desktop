@@ -41,7 +41,8 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Images\microsoft-sdk.png" />
+	<Content Include="Web\**\*.*" />
+	<Content Include="Images\microsoft-sdk.png" />
     <Content Include="Images\SplashScreen.scale-200.png" />
     <Content Include="Images\LockScreenLogo.scale-200.png" />
     <Content Include="Images\Square150x150Logo.scale-200.png" />

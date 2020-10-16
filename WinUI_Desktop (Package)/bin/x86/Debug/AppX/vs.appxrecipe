@@ -31,33 +31,197 @@
     <AppXManifest Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\bin\x86\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-16T03:44:32.263</Modified>
+      <Modified>2020-10-16T09:32:13.279</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\WinUI_Desktop\App.xbf">
       <PackagePath>WinUI_Desktop\App.xbf</PackagePath>
-      <Modified>2020-10-16T03:44:27.894</Modified>
+      <Modified>2020-10-16T09:32:09.771</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\WinUI_Desktop\GooglePage.xbf">
       <PackagePath>WinUI_Desktop\GooglePage.xbf</PackagePath>
-      <Modified>2020-10-16T03:44:27.895</Modified>
+      <Modified>2020-10-16T09:32:09.771</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\WinUI_Desktop\HomePage.xbf">
       <PackagePath>WinUI_Desktop\HomePage.xbf</PackagePath>
-      <Modified>2020-10-16T03:44:27.895</Modified>
+      <Modified>2020-10-16T09:32:09.771</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\WinUI_Desktop\LoginPage.xbf">
       <PackagePath>WinUI_Desktop\LoginPage.xbf</PackagePath>
-      <Modified>2020-10-16T03:44:27.895</Modified>
+      <Modified>2020-10-16T09:32:09.771</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\WinUI_Desktop\MainWindow.xbf">
       <PackagePath>WinUI_Desktop\MainWindow.xbf</PackagePath>
-      <Modified>2020-10-16T03:44:27.895</Modified>
+      <Modified>2020-10-16T09:32:09.772</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\WinUI_Desktop\MicrosoftHomePage.xbf">
       <PackagePath>WinUI_Desktop\MicrosoftHomePage.xbf</PackagePath>
-      <Modified>2020-10-16T03:44:27.896</Modified>
+      <Modified>2020-10-16T09:32:09.772</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\WinUI_Desktop\WebPage.xbf">
+      <PackagePath>WinUI_Desktop\WebPage.xbf</PackagePath>
+      <Modified>2020-10-16T09:32:09.772</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\ABOUT THIS TEMPLATE.txt">
+      <PackagePath>Web\ABOUT THIS TEMPLATE.txt</PackagePath>
+      <Modified>2020-10-13T06:38:40.005</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\font-awesome-4.5.0\HELP-US-OUT.txt">
+      <PackagePath>Web\font-awesome-4.5.0\HELP-US-OUT.txt</PackagePath>
+      <Modified>2020-10-13T06:38:40.352</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\css\bootstrap.min.css">
+      <PackagePath>Web\css\bootstrap.min.css</PackagePath>
+      <Modified>2020-10-13T06:38:40.116</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\css\tooplate-style.css">
+      <PackagePath>Web\css\tooplate-style.css</PackagePath>
+      <Modified>2020-10-13T06:38:40.232</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\font-awesome-4.5.0\css\font-awesome.min.css">
+      <PackagePath>Web\font-awesome-4.5.0\css\font-awesome.min.css</PackagePath>
+      <Modified>2020-10-13T06:38:40.414</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\slick\slick-theme.css">
+      <PackagePath>Web\slick\slick-theme.css</PackagePath>
+      <Modified>2020-10-13T06:38:41.336</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\slick\slick.css">
+      <PackagePath>Web\slick\slick.css</PackagePath>
+      <Modified>2020-10-13T06:38:41.436</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\font-awesome-4.5.0\fonts\fontawesome-webfont.eot">
+      <PackagePath>Web\font-awesome-4.5.0\fonts\fontawesome-webfont.eot</PackagePath>
+      <Modified>2020-10-13T06:38:40.538</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\slick\fonts\slick.eot">
+      <PackagePath>Web\slick\fonts\slick.eot</PackagePath>
+      <Modified>2020-10-13T06:38:41.604</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\font-awesome-4.5.0\fonts\fontawesome-webfont.svg">
+      <PackagePath>Web\font-awesome-4.5.0\fonts\fontawesome-webfont.svg</PackagePath>
+      <Modified>2020-10-13T06:38:40.603</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\slick\fonts\slick.svg">
+      <PackagePath>Web\slick\fonts\slick.svg</PackagePath>
+      <Modified>2020-10-13T06:38:41.642</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\font-awesome-4.5.0\fonts\fontawesome-webfont.ttf">
+      <PackagePath>Web\font-awesome-4.5.0\fonts\fontawesome-webfont.ttf</PackagePath>
+      <Modified>2020-10-13T06:38:40.678</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\slick\fonts\slick.ttf">
+      <PackagePath>Web\slick\fonts\slick.ttf</PackagePath>
+      <Modified>2020-10-13T06:38:41.672</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\font-awesome-4.5.0\fonts\fontawesome-webfont.woff">
+      <PackagePath>Web\font-awesome-4.5.0\fonts\fontawesome-webfont.woff</PackagePath>
+      <Modified>2020-10-13T06:38:40.711</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\slick\fonts\slick.woff">
+      <PackagePath>Web\slick\fonts\slick.woff</PackagePath>
+      <Modified>2020-10-13T06:38:41.703</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\font-awesome-4.5.0\fonts\fontawesome-webfont.woff2">
+      <PackagePath>Web\font-awesome-4.5.0\fonts\fontawesome-webfont.woff2</PackagePath>
+      <Modified>2020-10-13T06:38:40.746</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\font-awesome-4.5.0\fonts\FontAwesome.otf">
+      <PackagePath>Web\font-awesome-4.5.0\fonts\FontAwesome.otf</PackagePath>
+      <Modified>2020-10-13T06:38:40.784</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\img\gallery-img-01.jpg">
+      <PackagePath>Web\img\gallery-img-01.jpg</PackagePath>
+      <Modified>2020-10-13T06:38:40.829</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\img\gallery-img-02.jpg">
+      <PackagePath>Web\img\gallery-img-02.jpg</PackagePath>
+      <Modified>2020-10-13T06:38:40.879</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\img\gallery-img-03.jpg">
+      <PackagePath>Web\img\gallery-img-03.jpg</PackagePath>
+      <Modified>2020-10-13T06:38:40.905</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\img\gallery-img-04.jpg">
+      <PackagePath>Web\img\gallery-img-04.jpg</PackagePath>
+      <Modified>2020-10-13T06:38:40.939</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\img\sc4-img-2.jpg">
+      <PackagePath>Web\img\sc4-img-2.jpg</PackagePath>
+      <Modified>2020-10-13T06:38:40.962</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\img\sc4-img-3.jpg">
+      <PackagePath>Web\img\sc4-img-3.jpg</PackagePath>
+      <Modified>2020-10-13T06:38:40.988</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\img\sc4-img-4.jpg">
+      <PackagePath>Web\img\sc4-img-4.jpg</PackagePath>
+      <Modified>2020-10-13T06:38:41.016</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\img\tm-bg-section-4.jpg">
+      <PackagePath>Web\img\tm-bg-section-4.jpg</PackagePath>
+      <Modified>2020-10-13T06:38:41.047</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\img\tm-img-1.jpg">
+      <PackagePath>Web\img\tm-img-1.jpg</PackagePath>
+      <Modified>2020-10-13T06:38:41.071</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\img\tm-img-2.jpg">
+      <PackagePath>Web\img\tm-img-2.jpg</PackagePath>
+      <Modified>2020-10-13T06:38:41.090</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\img\tm-sc4-img-1.jpg">
+      <PackagePath>Web\img\tm-sc4-img-1.jpg</PackagePath>
+      <Modified>2020-10-13T06:38:41.110</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\index.html">
+      <PackagePath>Web\index.html</PackagePath>
+      <Modified>2020-10-13T06:38:40.057</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\js\bootstrap.min.js">
+      <PackagePath>Web\js\bootstrap.min.js</PackagePath>
+      <Modified>2020-10-13T06:38:41.159</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\js\jquery-1.11.3.min.js">
+      <PackagePath>Web\js\jquery-1.11.3.min.js</PackagePath>
+      <Modified>2020-10-13T06:38:41.223</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\js\popper.min.js">
+      <PackagePath>Web\js\popper.min.js</PackagePath>
+      <Modified>2020-10-13T06:38:41.258</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\slick\slick.js">
+      <PackagePath>Web\slick\slick.js</PackagePath>
+      <Modified>2020-10-13T06:38:41.483</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\slick\slick.min.js">
+      <PackagePath>Web\slick\slick.min.js</PackagePath>
+      <Modified>2020-10-13T06:38:41.547</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\slick\ajax-loader.gif">
+      <PackagePath>Web\slick\ajax-loader.gif</PackagePath>
+      <Modified>2020-10-13T06:38:41.281</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\slick\config.rb">
+      <PackagePath>Web\slick\config.rb</PackagePath>
+      <Modified>2020-10-13T06:38:41.304</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\slick\slick-theme.less">
+      <PackagePath>Web\slick\slick-theme.less</PackagePath>
+      <Modified>2020-10-13T06:38:41.373</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\slick\slick.less">
+      <PackagePath>Web\slick\slick.less</PackagePath>
+      <Modified>2020-10-13T06:38:41.509</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\slick\slick-theme.scss">
+      <PackagePath>Web\slick\slick-theme.scss</PackagePath>
+      <Modified>2020-10-13T06:38:41.405</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\slick\slick.scss">
+      <PackagePath>Web\slick\slick.scss</PackagePath>
+      <Modified>2020-10-13T06:38:41.565</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Images\microsoft-sdk.png">
       <PackagePath>Images\microsoft-sdk.png</PackagePath>
@@ -111,19 +275,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-10-16T03:44:31.966</Modified>
+      <Modified>2020-10-16T09:15:33.297</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\obj\x86\Debug\net5.0\win-x86\Msix\WinUI_Desktop.deps.json">
       <PackagePath>WinUI_Desktop\WinUI_Desktop.deps.json</PackagePath>
-      <Modified>2020-10-16T03:44:29.434</Modified>
+      <Modified>2020-10-16T07:57:09.362</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\obj\x86\Debug\net5.0\win-x86\WinUI_Desktop.exe">
       <PackagePath>WinUI_Desktop\WinUI_Desktop.exe</PackagePath>
-      <Modified>2020-10-16T03:44:28.129</Modified>
+      <Modified>2020-10-16T09:32:10.055</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\obj\x86\Debug\net5.0\win-x86\WinUI_Desktop.dll">
       <PackagePath>WinUI_Desktop\WinUI_Desktop.dll</PackagePath>
-      <Modified>2020-10-16T03:44:28.113</Modified>
+      <Modified>2020-10-16T09:32:10.036</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\WinUI_Desktop.runtimeconfig.json">
       <PackagePath>WinUI_Desktop\WinUI_Desktop.runtimeconfig.json</PackagePath>

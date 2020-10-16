@@ -13,24 +13,20 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <RelativePanel x:Name="HeaderPanel" Height="35">
+        <RelativePanel Height="35">
             <Image x:Name="TSMCLogo" Stretch="Uniform" Source="/Images/tsmc-logo.png" Margin="5,5,0,5" RelativePanel.AlignLeftWithPanel ="True" />
-            <!--<NavigationViewItem Icon="Help" RelativePanel.LeftOf ="NavViewItem_Login" />-->
             <AppBarButton x:Name="LoginButton" Icon="AddFriend" Label="Not Login" Click="LoginBtn_Click"  RelativePanel.AlignRightWithPanel ="True"/>
-
         </RelativePanel>
 
         <NavigationView Grid.Row="1"
                 x:Name="NavigationViewControl"            
-                ItemInvoked="NavView_ItemInvoked"
-                IsSettingsVisible="False">
+                ItemInvoked="NavView_ItemInvoked">
             <NavigationView.MenuItems>
                 <NavigationViewItem Icon="Home" Content="Home" x:Name="NavViewItem_Home"/>
                 <NavigationViewItem Icon="Globe" Content="Microsoft" x:Name="NavViewItem_Microsoft"/>
-                <NavigationViewItem Icon="World" Content="Google" x:Name="NavViewItem_Google"/>
+                <NavigationViewItem Icon="World" Content="Web" x:Name="NavViewItem_Web"/>
                 <NavigationViewItem Icon="AllApps" Content="Controls"/>
                 <NavigationViewItem Icon="Copy" Content="Copy"/>
-
                 <NavigationViewItem Icon="Delete" Content="Delete"/>
                 <NavigationViewItem Icon="Phone" Content="Phone"/>
                 <NavigationViewItem Icon="Refresh" Content="Refresh"/>
@@ -42,16 +38,10 @@
                 <NavigationViewItem Icon="Font" Content="Text"/>
                 <NavigationViewItem Icon="Message" Content="Message"/>
                 <NavigationViewItem Icon="Permissions" Content="Permissions"/>
-
             </NavigationView.MenuItems>
             <NavigationView.AutoSuggestBox>
                 <AutoSuggestBox QueryIcon="Find"/>
             </NavigationView.AutoSuggestBox>
-
-            <NavigationView.PaneFooter>
-                <NavigationViewItem Icon="Setting" Content="Setting"/>
-            </NavigationView.PaneFooter>
-
             <Frame x:Name="rootFrame"/>
         </NavigationView>
     </Grid>

@@ -43,6 +43,129 @@
     <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\WinUI_Desktop\MicrosoftHomePage.xbf">
       <PackagePath>WinUI_Desktop\MicrosoftHomePage.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\WinUI_Desktop\WebPage.xbf">
+      <PackagePath>WinUI_Desktop\WebPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\ABOUT THIS TEMPLATE.txt">
+      <PackagePath>Web\ABOUT THIS TEMPLATE.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\font-awesome-4.5.0\HELP-US-OUT.txt">
+      <PackagePath>Web\font-awesome-4.5.0\HELP-US-OUT.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\css\bootstrap.min.css">
+      <PackagePath>Web\css\bootstrap.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\css\tooplate-style.css">
+      <PackagePath>Web\css\tooplate-style.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\font-awesome-4.5.0\css\font-awesome.min.css">
+      <PackagePath>Web\font-awesome-4.5.0\css\font-awesome.min.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\slick\slick-theme.css">
+      <PackagePath>Web\slick\slick-theme.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\slick\slick.css">
+      <PackagePath>Web\slick\slick.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\font-awesome-4.5.0\fonts\fontawesome-webfont.eot">
+      <PackagePath>Web\font-awesome-4.5.0\fonts\fontawesome-webfont.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\slick\fonts\slick.eot">
+      <PackagePath>Web\slick\fonts\slick.eot</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\font-awesome-4.5.0\fonts\fontawesome-webfont.svg">
+      <PackagePath>Web\font-awesome-4.5.0\fonts\fontawesome-webfont.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\slick\fonts\slick.svg">
+      <PackagePath>Web\slick\fonts\slick.svg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\font-awesome-4.5.0\fonts\fontawesome-webfont.ttf">
+      <PackagePath>Web\font-awesome-4.5.0\fonts\fontawesome-webfont.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\slick\fonts\slick.ttf">
+      <PackagePath>Web\slick\fonts\slick.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\font-awesome-4.5.0\fonts\fontawesome-webfont.woff">
+      <PackagePath>Web\font-awesome-4.5.0\fonts\fontawesome-webfont.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\slick\fonts\slick.woff">
+      <PackagePath>Web\slick\fonts\slick.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\font-awesome-4.5.0\fonts\fontawesome-webfont.woff2">
+      <PackagePath>Web\font-awesome-4.5.0\fonts\fontawesome-webfont.woff2</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\font-awesome-4.5.0\fonts\FontAwesome.otf">
+      <PackagePath>Web\font-awesome-4.5.0\fonts\FontAwesome.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\img\gallery-img-01.jpg">
+      <PackagePath>Web\img\gallery-img-01.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\img\gallery-img-02.jpg">
+      <PackagePath>Web\img\gallery-img-02.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\img\gallery-img-03.jpg">
+      <PackagePath>Web\img\gallery-img-03.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\img\gallery-img-04.jpg">
+      <PackagePath>Web\img\gallery-img-04.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\img\sc4-img-2.jpg">
+      <PackagePath>Web\img\sc4-img-2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\img\sc4-img-3.jpg">
+      <PackagePath>Web\img\sc4-img-3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\img\sc4-img-4.jpg">
+      <PackagePath>Web\img\sc4-img-4.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\img\tm-bg-section-4.jpg">
+      <PackagePath>Web\img\tm-bg-section-4.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\img\tm-img-1.jpg">
+      <PackagePath>Web\img\tm-img-1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\img\tm-img-2.jpg">
+      <PackagePath>Web\img\tm-img-2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\img\tm-sc4-img-1.jpg">
+      <PackagePath>Web\img\tm-sc4-img-1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\index.html">
+      <PackagePath>Web\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\js\bootstrap.min.js">
+      <PackagePath>Web\js\bootstrap.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\js\jquery-1.11.3.min.js">
+      <PackagePath>Web\js\jquery-1.11.3.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\js\popper.min.js">
+      <PackagePath>Web\js\popper.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\slick\slick.js">
+      <PackagePath>Web\slick\slick.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\slick\slick.min.js">
+      <PackagePath>Web\slick\slick.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\slick\ajax-loader.gif">
+      <PackagePath>Web\slick\ajax-loader.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\slick\config.rb">
+      <PackagePath>Web\slick\config.rb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\slick\slick-theme.less">
+      <PackagePath>Web\slick\slick-theme.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\slick\slick.less">
+      <PackagePath>Web\slick\slick.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\slick\slick-theme.scss">
+      <PackagePath>Web\slick\slick-theme.scss</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Web\slick\slick.scss">
+      <PackagePath>Web\slick\slick.scss</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Images\microsoft-sdk.png">
       <PackagePath>Images\microsoft-sdk.png</PackagePath>
     </AppxPackagedFile>

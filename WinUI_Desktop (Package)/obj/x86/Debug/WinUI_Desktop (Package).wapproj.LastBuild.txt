@@ -4,6 +4,47 @@ C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win
 C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\WinUI_Desktop\LoginPage.xbf
 C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\WinUI_Desktop\MainWindow.xbf
 C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\WinUI_Desktop\MicrosoftHomePage.xbf
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\WinUI_Desktop\WebPage.xbf
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Web\ABOUT THIS TEMPLATE.txt
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Web\font-awesome-4.5.0\HELP-US-OUT.txt
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Web\css\bootstrap.min.css
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Web\css\tooplate-style.css
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Web\font-awesome-4.5.0\css\font-awesome.min.css
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Web\slick\slick-theme.css
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Web\slick\slick.css
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Web\font-awesome-4.5.0\fonts\fontawesome-webfont.eot
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Web\slick\fonts\slick.eot
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Web\font-awesome-4.5.0\fonts\fontawesome-webfont.svg
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Web\slick\fonts\slick.svg
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Web\font-awesome-4.5.0\fonts\fontawesome-webfont.ttf
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Web\slick\fonts\slick.ttf
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Web\font-awesome-4.5.0\fonts\fontawesome-webfont.woff
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Web\slick\fonts\slick.woff
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Web\font-awesome-4.5.0\fonts\fontawesome-webfont.woff2
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Web\font-awesome-4.5.0\fonts\FontAwesome.otf
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Web\img\gallery-img-01.jpg
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Web\img\gallery-img-02.jpg
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Web\img\gallery-img-03.jpg
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Web\img\gallery-img-04.jpg
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Web\img\sc4-img-2.jpg
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Web\img\sc4-img-3.jpg
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Web\img\sc4-img-4.jpg
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Web\img\tm-bg-section-4.jpg
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Web\img\tm-img-1.jpg
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Web\img\tm-img-2.jpg
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Web\img\tm-sc4-img-1.jpg
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Web\index.html
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Web\js\bootstrap.min.js
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Web\js\jquery-1.11.3.min.js
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Web\js\popper.min.js
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Web\slick\slick.js
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Web\slick\slick.min.js
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Web\slick\ajax-loader.gif
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Web\slick\config.rb
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Web\slick\slick-theme.less
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Web\slick\slick.less
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Web\slick\slick-theme.scss
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Web\slick\slick.scss
 C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Images\microsoft-sdk.png
 C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Images\SplashScreen.scale-200.png
 C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\Images\LockScreenLogo.scale-200.png

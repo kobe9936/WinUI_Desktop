@@ -9,8 +9,6 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <WebView2  
-            
-            Source = "https://azure-oauth2-sample.herokuapp.com/"/>
+        <WebView2 x:Name="LoginWebView"  Source = "https://azure-oauth2-sample.herokuapp.com/"/>
     </Grid>
 </Page>

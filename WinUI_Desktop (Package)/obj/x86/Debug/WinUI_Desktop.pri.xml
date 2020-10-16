@@ -34,6 +34,11 @@
 						<Value>WinUI_Desktop\MicrosoftHomePage.xbf</Value>
 					</Candidate>
 				</NamedResource>
+				<NamedResource name="WebPage.xbf" uri="ms-resource://WinUI_Desktop/Files/WinUI_Desktop/WebPage.xbf">
+					<Candidate type="Path">
+						<Value>WinUI_Desktop\WebPage.xbf</Value>
+					</Candidate>
+				</NamedResource>
 			</ResourceMapSubtree>
 		</ResourceMapSubtree>
 	</ResourceMap>
