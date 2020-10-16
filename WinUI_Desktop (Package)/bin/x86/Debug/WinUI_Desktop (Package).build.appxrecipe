@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-6D7SG27</Machine>
-    <WindowsUser>kobe9</WindowsUser>
+    <Machine>EC2AMAZ-DULD8TF</Machine>
+    <WindowsUser>Admin</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,877 +10,880 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>b0eb8811-150b-4838-abd6-e9b6fce91668</PackageIdentityName>
     <PackageIdentityPublisher>CN=kobe9</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath></WindowsSdkPath>
-    <LayoutDir>C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\bin\x86\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\bin\x86\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\WinUI_Desktop\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\WinUI_Desktop\App.xbf">
       <PackagePath>WinUI_Desktop\App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\WinUI_Desktop\GooglePage.xbf">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\WinUI_Desktop\GooglePage.xbf">
       <PackagePath>WinUI_Desktop\GooglePage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\WinUI_Desktop\HomePage.xbf">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\WinUI_Desktop\HomePage.xbf">
       <PackagePath>WinUI_Desktop\HomePage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\WinUI_Desktop\MainWindow.xbf">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\WinUI_Desktop\LoginPage.xbf">
+      <PackagePath>WinUI_Desktop\LoginPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\WinUI_Desktop\MainWindow.xbf">
       <PackagePath>WinUI_Desktop\MainWindow.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\WinUI_Desktop\MicrosoftHomePage.xbf">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\WinUI_Desktop\MicrosoftHomePage.xbf">
       <PackagePath>WinUI_Desktop\MicrosoftHomePage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Images\microsoft-sdk.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Images\microsoft-sdk.png">
       <PackagePath>Images\microsoft-sdk.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Images\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Images\SplashScreen.scale-200.png">
       <PackagePath>Images\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Images\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Images\LockScreenLogo.scale-200.png">
       <PackagePath>Images\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Images\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Images\Square150x150Logo.scale-200.png">
       <PackagePath>Images\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Images\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Images\Square44x44Logo.scale-200.png">
       <PackagePath>Images\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Images\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Images\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Images\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Images\StoreLogo.png">
       <PackagePath>Images\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Images\tsmc-logo.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Images\tsmc-logo.png">
       <PackagePath>Images\tsmc-logo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Images\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Images\Wide310x150Logo.scale-200.png">
       <PackagePath>Images\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Images\windows-sdk.png">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\Images\windows-sdk.png">
       <PackagePath>Images\windows-sdk.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop %28Package%29\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop\obj\x86\Debug\net5.0\win-x86\Msix\WinUI_Desktop.deps.json">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\obj\x86\Debug\net5.0\win-x86\Msix\WinUI_Desktop.deps.json">
       <PackagePath>WinUI_Desktop\WinUI_Desktop.deps.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop\obj\x86\Debug\net5.0\win-x86\WinUI_Desktop.exe">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\obj\x86\Debug\net5.0\win-x86\WinUI_Desktop.exe">
       <PackagePath>WinUI_Desktop\WinUI_Desktop.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop\obj\x86\Debug\net5.0\win-x86\WinUI_Desktop.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\obj\x86\Debug\net5.0\win-x86\WinUI_Desktop.dll">
       <PackagePath>WinUI_Desktop\WinUI_Desktop.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\WinUI_Desktop.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\WinUI_Desktop.runtimeconfig.json">
       <PackagePath>WinUI_Desktop\WinUI_Desktop.runtimeconfig.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\Microsoft.CSharp.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\Microsoft.CSharp.dll">
       <PackagePath>WinUI_Desktop\Microsoft.CSharp.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\Microsoft.VisualBasic.Core.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\Microsoft.VisualBasic.Core.dll">
       <PackagePath>WinUI_Desktop\Microsoft.VisualBasic.Core.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\Microsoft.VisualBasic.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\Microsoft.VisualBasic.dll">
       <PackagePath>WinUI_Desktop\Microsoft.VisualBasic.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\Microsoft.Win32.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\Microsoft.Win32.Primitives.dll">
       <PackagePath>WinUI_Desktop\Microsoft.Win32.Primitives.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\Microsoft.Win32.Registry.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\Microsoft.Win32.Registry.dll">
       <PackagePath>WinUI_Desktop\Microsoft.Win32.Registry.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.AppContext.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.AppContext.dll">
       <PackagePath>WinUI_Desktop\System.AppContext.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Buffers.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Buffers.dll">
       <PackagePath>WinUI_Desktop\System.Buffers.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Collections.Concurrent.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Collections.Concurrent.dll">
       <PackagePath>WinUI_Desktop\System.Collections.Concurrent.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Collections.Immutable.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Collections.Immutable.dll">
       <PackagePath>WinUI_Desktop\System.Collections.Immutable.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Collections.NonGeneric.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Collections.NonGeneric.dll">
       <PackagePath>WinUI_Desktop\System.Collections.NonGeneric.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Collections.Specialized.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Collections.Specialized.dll">
       <PackagePath>WinUI_Desktop\System.Collections.Specialized.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Collections.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Collections.dll">
       <PackagePath>WinUI_Desktop\System.Collections.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.ComponentModel.Annotations.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.ComponentModel.Annotations.dll">
       <PackagePath>WinUI_Desktop\System.ComponentModel.Annotations.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.ComponentModel.DataAnnotations.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.ComponentModel.DataAnnotations.dll">
       <PackagePath>WinUI_Desktop\System.ComponentModel.DataAnnotations.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.ComponentModel.EventBasedAsync.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.ComponentModel.EventBasedAsync.dll">
       <PackagePath>WinUI_Desktop\System.ComponentModel.EventBasedAsync.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.ComponentModel.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.ComponentModel.Primitives.dll">
       <PackagePath>WinUI_Desktop\System.ComponentModel.Primitives.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.ComponentModel.TypeConverter.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.ComponentModel.TypeConverter.dll">
       <PackagePath>WinUI_Desktop\System.ComponentModel.TypeConverter.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.ComponentModel.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.ComponentModel.dll">
       <PackagePath>WinUI_Desktop\System.ComponentModel.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Configuration.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Configuration.dll">
       <PackagePath>WinUI_Desktop\System.Configuration.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Console.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Console.dll">
       <PackagePath>WinUI_Desktop\System.Console.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Core.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Core.dll">
       <PackagePath>WinUI_Desktop\System.Core.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Data.Common.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Data.Common.dll">
       <PackagePath>WinUI_Desktop\System.Data.Common.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Data.DataSetExtensions.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Data.DataSetExtensions.dll">
       <PackagePath>WinUI_Desktop\System.Data.DataSetExtensions.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Data.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Data.dll">
       <PackagePath>WinUI_Desktop\System.Data.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Diagnostics.Contracts.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Diagnostics.Contracts.dll">
       <PackagePath>WinUI_Desktop\System.Diagnostics.Contracts.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Diagnostics.Debug.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Diagnostics.Debug.dll">
       <PackagePath>WinUI_Desktop\System.Diagnostics.Debug.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Diagnostics.DiagnosticSource.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Diagnostics.DiagnosticSource.dll">
       <PackagePath>WinUI_Desktop\System.Diagnostics.DiagnosticSource.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Diagnostics.FileVersionInfo.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Diagnostics.FileVersionInfo.dll">
       <PackagePath>WinUI_Desktop\System.Diagnostics.FileVersionInfo.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Diagnostics.Process.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Diagnostics.Process.dll">
       <PackagePath>WinUI_Desktop\System.Diagnostics.Process.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Diagnostics.StackTrace.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Diagnostics.StackTrace.dll">
       <PackagePath>WinUI_Desktop\System.Diagnostics.StackTrace.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Diagnostics.TextWriterTraceListener.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Diagnostics.TextWriterTraceListener.dll">
       <PackagePath>WinUI_Desktop\System.Diagnostics.TextWriterTraceListener.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Diagnostics.Tools.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Diagnostics.Tools.dll">
       <PackagePath>WinUI_Desktop\System.Diagnostics.Tools.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Diagnostics.TraceSource.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Diagnostics.TraceSource.dll">
       <PackagePath>WinUI_Desktop\System.Diagnostics.TraceSource.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Diagnostics.Tracing.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Diagnostics.Tracing.dll">
       <PackagePath>WinUI_Desktop\System.Diagnostics.Tracing.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Drawing.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Drawing.Primitives.dll">
       <PackagePath>WinUI_Desktop\System.Drawing.Primitives.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Drawing.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Drawing.dll">
       <PackagePath>WinUI_Desktop\System.Drawing.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Dynamic.Runtime.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Dynamic.Runtime.dll">
       <PackagePath>WinUI_Desktop\System.Dynamic.Runtime.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Globalization.Calendars.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Globalization.Calendars.dll">
       <PackagePath>WinUI_Desktop\System.Globalization.Calendars.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Globalization.Extensions.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Globalization.Extensions.dll">
       <PackagePath>WinUI_Desktop\System.Globalization.Extensions.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Globalization.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Globalization.dll">
       <PackagePath>WinUI_Desktop\System.Globalization.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.IO.Compression.Brotli.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.IO.Compression.Brotli.dll">
       <PackagePath>WinUI_Desktop\System.IO.Compression.Brotli.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.IO.Compression.FileSystem.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.IO.Compression.FileSystem.dll">
       <PackagePath>WinUI_Desktop\System.IO.Compression.FileSystem.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.IO.Compression.ZipFile.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.IO.Compression.ZipFile.dll">
       <PackagePath>WinUI_Desktop\System.IO.Compression.ZipFile.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.IO.Compression.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.IO.Compression.dll">
       <PackagePath>WinUI_Desktop\System.IO.Compression.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.IO.FileSystem.AccessControl.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.IO.FileSystem.AccessControl.dll">
       <PackagePath>WinUI_Desktop\System.IO.FileSystem.AccessControl.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.IO.FileSystem.DriveInfo.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.IO.FileSystem.DriveInfo.dll">
       <PackagePath>WinUI_Desktop\System.IO.FileSystem.DriveInfo.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.IO.FileSystem.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.IO.FileSystem.Primitives.dll">
       <PackagePath>WinUI_Desktop\System.IO.FileSystem.Primitives.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.IO.FileSystem.Watcher.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.IO.FileSystem.Watcher.dll">
       <PackagePath>WinUI_Desktop\System.IO.FileSystem.Watcher.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.IO.FileSystem.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.IO.FileSystem.dll">
       <PackagePath>WinUI_Desktop\System.IO.FileSystem.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.IO.IsolatedStorage.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.IO.IsolatedStorage.dll">
       <PackagePath>WinUI_Desktop\System.IO.IsolatedStorage.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.IO.MemoryMappedFiles.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.IO.MemoryMappedFiles.dll">
       <PackagePath>WinUI_Desktop\System.IO.MemoryMappedFiles.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.IO.Pipes.AccessControl.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.IO.Pipes.AccessControl.dll">
       <PackagePath>WinUI_Desktop\System.IO.Pipes.AccessControl.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.IO.Pipes.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.IO.Pipes.dll">
       <PackagePath>WinUI_Desktop\System.IO.Pipes.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.IO.UnmanagedMemoryStream.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.IO.UnmanagedMemoryStream.dll">
       <PackagePath>WinUI_Desktop\System.IO.UnmanagedMemoryStream.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.IO.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.IO.dll">
       <PackagePath>WinUI_Desktop\System.IO.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Linq.Expressions.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Linq.Expressions.dll">
       <PackagePath>WinUI_Desktop\System.Linq.Expressions.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Linq.Parallel.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Linq.Parallel.dll">
       <PackagePath>WinUI_Desktop\System.Linq.Parallel.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Linq.Queryable.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Linq.Queryable.dll">
       <PackagePath>WinUI_Desktop\System.Linq.Queryable.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Linq.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Linq.dll">
       <PackagePath>WinUI_Desktop\System.Linq.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Memory.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Memory.dll">
       <PackagePath>WinUI_Desktop\System.Memory.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Net.Http.Json.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Net.Http.Json.dll">
       <PackagePath>WinUI_Desktop\System.Net.Http.Json.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Net.Http.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Net.Http.dll">
       <PackagePath>WinUI_Desktop\System.Net.Http.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Net.HttpListener.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Net.HttpListener.dll">
       <PackagePath>WinUI_Desktop\System.Net.HttpListener.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Net.Mail.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Net.Mail.dll">
       <PackagePath>WinUI_Desktop\System.Net.Mail.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Net.NameResolution.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Net.NameResolution.dll">
       <PackagePath>WinUI_Desktop\System.Net.NameResolution.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Net.NetworkInformation.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Net.NetworkInformation.dll">
       <PackagePath>WinUI_Desktop\System.Net.NetworkInformation.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Net.Ping.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Net.Ping.dll">
       <PackagePath>WinUI_Desktop\System.Net.Ping.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Net.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Net.Primitives.dll">
       <PackagePath>WinUI_Desktop\System.Net.Primitives.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Net.Requests.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Net.Requests.dll">
       <PackagePath>WinUI_Desktop\System.Net.Requests.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Net.Security.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Net.Security.dll">
       <PackagePath>WinUI_Desktop\System.Net.Security.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Net.ServicePoint.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Net.ServicePoint.dll">
       <PackagePath>WinUI_Desktop\System.Net.ServicePoint.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Net.Sockets.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Net.Sockets.dll">
       <PackagePath>WinUI_Desktop\System.Net.Sockets.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Net.WebClient.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Net.WebClient.dll">
       <PackagePath>WinUI_Desktop\System.Net.WebClient.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Net.WebHeaderCollection.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Net.WebHeaderCollection.dll">
       <PackagePath>WinUI_Desktop\System.Net.WebHeaderCollection.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Net.WebProxy.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Net.WebProxy.dll">
       <PackagePath>WinUI_Desktop\System.Net.WebProxy.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Net.WebSockets.Client.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Net.WebSockets.Client.dll">
       <PackagePath>WinUI_Desktop\System.Net.WebSockets.Client.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Net.WebSockets.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Net.WebSockets.dll">
       <PackagePath>WinUI_Desktop\System.Net.WebSockets.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Net.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Net.dll">
       <PackagePath>WinUI_Desktop\System.Net.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Numerics.Vectors.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Numerics.Vectors.dll">
       <PackagePath>WinUI_Desktop\System.Numerics.Vectors.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Numerics.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Numerics.dll">
       <PackagePath>WinUI_Desktop\System.Numerics.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.ObjectModel.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.ObjectModel.dll">
       <PackagePath>WinUI_Desktop\System.ObjectModel.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Private.DataContractSerialization.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Private.DataContractSerialization.dll">
       <PackagePath>WinUI_Desktop\System.Private.DataContractSerialization.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Private.Uri.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Private.Uri.dll">
       <PackagePath>WinUI_Desktop\System.Private.Uri.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Private.Xml.Linq.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Private.Xml.Linq.dll">
       <PackagePath>WinUI_Desktop\System.Private.Xml.Linq.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Private.Xml.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Private.Xml.dll">
       <PackagePath>WinUI_Desktop\System.Private.Xml.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Reflection.DispatchProxy.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Reflection.DispatchProxy.dll">
       <PackagePath>WinUI_Desktop\System.Reflection.DispatchProxy.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Reflection.Emit.ILGeneration.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Reflection.Emit.ILGeneration.dll">
       <PackagePath>WinUI_Desktop\System.Reflection.Emit.ILGeneration.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Reflection.Emit.Lightweight.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Reflection.Emit.Lightweight.dll">
       <PackagePath>WinUI_Desktop\System.Reflection.Emit.Lightweight.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Reflection.Emit.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Reflection.Emit.dll">
       <PackagePath>WinUI_Desktop\System.Reflection.Emit.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Reflection.Extensions.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Reflection.Extensions.dll">
       <PackagePath>WinUI_Desktop\System.Reflection.Extensions.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Reflection.Metadata.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Reflection.Metadata.dll">
       <PackagePath>WinUI_Desktop\System.Reflection.Metadata.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Reflection.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Reflection.Primitives.dll">
       <PackagePath>WinUI_Desktop\System.Reflection.Primitives.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Reflection.TypeExtensions.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Reflection.TypeExtensions.dll">
       <PackagePath>WinUI_Desktop\System.Reflection.TypeExtensions.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Reflection.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Reflection.dll">
       <PackagePath>WinUI_Desktop\System.Reflection.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Resources.Reader.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Resources.Reader.dll">
       <PackagePath>WinUI_Desktop\System.Resources.Reader.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Resources.ResourceManager.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Resources.ResourceManager.dll">
       <PackagePath>WinUI_Desktop\System.Resources.ResourceManager.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Resources.Writer.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Resources.Writer.dll">
       <PackagePath>WinUI_Desktop\System.Resources.Writer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Runtime.CompilerServices.Unsafe.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Runtime.CompilerServices.Unsafe.dll">
       <PackagePath>WinUI_Desktop\System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Runtime.CompilerServices.VisualC.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Runtime.CompilerServices.VisualC.dll">
       <PackagePath>WinUI_Desktop\System.Runtime.CompilerServices.VisualC.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Runtime.Extensions.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Runtime.Extensions.dll">
       <PackagePath>WinUI_Desktop\System.Runtime.Extensions.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Runtime.Handles.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Runtime.Handles.dll">
       <PackagePath>WinUI_Desktop\System.Runtime.Handles.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Runtime.InteropServices.RuntimeInformation.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Runtime.InteropServices.RuntimeInformation.dll">
       <PackagePath>WinUI_Desktop\System.Runtime.InteropServices.RuntimeInformation.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Runtime.InteropServices.WindowsRuntime.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Runtime.InteropServices.WindowsRuntime.dll">
       <PackagePath>WinUI_Desktop\System.Runtime.InteropServices.WindowsRuntime.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Runtime.InteropServices.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Runtime.InteropServices.dll">
       <PackagePath>WinUI_Desktop\System.Runtime.InteropServices.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Runtime.Intrinsics.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Runtime.Intrinsics.dll">
       <PackagePath>WinUI_Desktop\System.Runtime.Intrinsics.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Runtime.Loader.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Runtime.Loader.dll">
       <PackagePath>WinUI_Desktop\System.Runtime.Loader.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Runtime.Numerics.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Runtime.Numerics.dll">
       <PackagePath>WinUI_Desktop\System.Runtime.Numerics.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Runtime.Serialization.Formatters.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Runtime.Serialization.Formatters.dll">
       <PackagePath>WinUI_Desktop\System.Runtime.Serialization.Formatters.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Runtime.Serialization.Json.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Runtime.Serialization.Json.dll">
       <PackagePath>WinUI_Desktop\System.Runtime.Serialization.Json.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Runtime.Serialization.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Runtime.Serialization.Primitives.dll">
       <PackagePath>WinUI_Desktop\System.Runtime.Serialization.Primitives.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Runtime.Serialization.Xml.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Runtime.Serialization.Xml.dll">
       <PackagePath>WinUI_Desktop\System.Runtime.Serialization.Xml.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Runtime.Serialization.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Runtime.Serialization.dll">
       <PackagePath>WinUI_Desktop\System.Runtime.Serialization.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Runtime.WindowsRuntime.UI.Xaml.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Runtime.WindowsRuntime.UI.Xaml.dll">
       <PackagePath>WinUI_Desktop\System.Runtime.WindowsRuntime.UI.Xaml.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Runtime.WindowsRuntime.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Runtime.WindowsRuntime.dll">
       <PackagePath>WinUI_Desktop\System.Runtime.WindowsRuntime.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Runtime.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Runtime.dll">
       <PackagePath>WinUI_Desktop\System.Runtime.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Security.AccessControl.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Security.AccessControl.dll">
       <PackagePath>WinUI_Desktop\System.Security.AccessControl.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Security.Claims.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Security.Claims.dll">
       <PackagePath>WinUI_Desktop\System.Security.Claims.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Security.Cryptography.Algorithms.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Security.Cryptography.Algorithms.dll">
       <PackagePath>WinUI_Desktop\System.Security.Cryptography.Algorithms.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Security.Cryptography.Cng.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Security.Cryptography.Cng.dll">
       <PackagePath>WinUI_Desktop\System.Security.Cryptography.Cng.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Security.Cryptography.Csp.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Security.Cryptography.Csp.dll">
       <PackagePath>WinUI_Desktop\System.Security.Cryptography.Csp.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Security.Cryptography.Encoding.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Security.Cryptography.Encoding.dll">
       <PackagePath>WinUI_Desktop\System.Security.Cryptography.Encoding.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Security.Cryptography.OpenSsl.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Security.Cryptography.OpenSsl.dll">
       <PackagePath>WinUI_Desktop\System.Security.Cryptography.OpenSsl.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Security.Cryptography.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Security.Cryptography.Primitives.dll">
       <PackagePath>WinUI_Desktop\System.Security.Cryptography.Primitives.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Security.Cryptography.X509Certificates.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Security.Cryptography.X509Certificates.dll">
       <PackagePath>WinUI_Desktop\System.Security.Cryptography.X509Certificates.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Security.Principal.Windows.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Security.Principal.Windows.dll">
       <PackagePath>WinUI_Desktop\System.Security.Principal.Windows.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Security.Principal.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Security.Principal.dll">
       <PackagePath>WinUI_Desktop\System.Security.Principal.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Security.SecureString.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Security.SecureString.dll">
       <PackagePath>WinUI_Desktop\System.Security.SecureString.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Security.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Security.dll">
       <PackagePath>WinUI_Desktop\System.Security.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.ServiceModel.Web.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.ServiceModel.Web.dll">
       <PackagePath>WinUI_Desktop\System.ServiceModel.Web.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.ServiceProcess.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.ServiceProcess.dll">
       <PackagePath>WinUI_Desktop\System.ServiceProcess.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Text.Encoding.CodePages.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Text.Encoding.CodePages.dll">
       <PackagePath>WinUI_Desktop\System.Text.Encoding.CodePages.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Text.Encoding.Extensions.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Text.Encoding.Extensions.dll">
       <PackagePath>WinUI_Desktop\System.Text.Encoding.Extensions.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Text.Encoding.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Text.Encoding.dll">
       <PackagePath>WinUI_Desktop\System.Text.Encoding.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Text.Encodings.Web.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Text.Encodings.Web.dll">
       <PackagePath>WinUI_Desktop\System.Text.Encodings.Web.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Text.Json.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Text.Json.dll">
       <PackagePath>WinUI_Desktop\System.Text.Json.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Text.RegularExpressions.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Text.RegularExpressions.dll">
       <PackagePath>WinUI_Desktop\System.Text.RegularExpressions.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Threading.Channels.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Threading.Channels.dll">
       <PackagePath>WinUI_Desktop\System.Threading.Channels.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Threading.Overlapped.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Threading.Overlapped.dll">
       <PackagePath>WinUI_Desktop\System.Threading.Overlapped.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Threading.Tasks.Dataflow.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Threading.Tasks.Dataflow.dll">
       <PackagePath>WinUI_Desktop\System.Threading.Tasks.Dataflow.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Threading.Tasks.Extensions.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Threading.Tasks.Extensions.dll">
       <PackagePath>WinUI_Desktop\System.Threading.Tasks.Extensions.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Threading.Tasks.Parallel.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Threading.Tasks.Parallel.dll">
       <PackagePath>WinUI_Desktop\System.Threading.Tasks.Parallel.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Threading.Tasks.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Threading.Tasks.dll">
       <PackagePath>WinUI_Desktop\System.Threading.Tasks.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Threading.Thread.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Threading.Thread.dll">
       <PackagePath>WinUI_Desktop\System.Threading.Thread.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Threading.ThreadPool.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Threading.ThreadPool.dll">
       <PackagePath>WinUI_Desktop\System.Threading.ThreadPool.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Threading.Timer.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Threading.Timer.dll">
       <PackagePath>WinUI_Desktop\System.Threading.Timer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Threading.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Threading.dll">
       <PackagePath>WinUI_Desktop\System.Threading.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Transactions.Local.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Transactions.Local.dll">
       <PackagePath>WinUI_Desktop\System.Transactions.Local.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Transactions.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Transactions.dll">
       <PackagePath>WinUI_Desktop\System.Transactions.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.ValueTuple.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.ValueTuple.dll">
       <PackagePath>WinUI_Desktop\System.ValueTuple.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Web.HttpUtility.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Web.HttpUtility.dll">
       <PackagePath>WinUI_Desktop\System.Web.HttpUtility.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Web.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Web.dll">
       <PackagePath>WinUI_Desktop\System.Web.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Windows.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Windows.dll">
       <PackagePath>WinUI_Desktop\System.Windows.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Xml.Linq.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Xml.Linq.dll">
       <PackagePath>WinUI_Desktop\System.Xml.Linq.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Xml.ReaderWriter.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Xml.ReaderWriter.dll">
       <PackagePath>WinUI_Desktop\System.Xml.ReaderWriter.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Xml.Serialization.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Xml.Serialization.dll">
       <PackagePath>WinUI_Desktop\System.Xml.Serialization.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Xml.XDocument.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Xml.XDocument.dll">
       <PackagePath>WinUI_Desktop\System.Xml.XDocument.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Xml.XPath.XDocument.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Xml.XPath.XDocument.dll">
       <PackagePath>WinUI_Desktop\System.Xml.XPath.XDocument.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Xml.XPath.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Xml.XPath.dll">
       <PackagePath>WinUI_Desktop\System.Xml.XPath.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Xml.XmlDocument.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Xml.XmlDocument.dll">
       <PackagePath>WinUI_Desktop\System.Xml.XmlDocument.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Xml.XmlSerializer.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Xml.XmlSerializer.dll">
       <PackagePath>WinUI_Desktop\System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Xml.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.Xml.dll">
       <PackagePath>WinUI_Desktop\System.Xml.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\System.dll">
       <PackagePath>WinUI_Desktop\System.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\WindowsBase.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\WindowsBase.dll">
       <PackagePath>WinUI_Desktop\WindowsBase.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\mscorlib.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\mscorlib.dll">
       <PackagePath>WinUI_Desktop\mscorlib.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\netstandard.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\lib\net5.0\netstandard.dll">
       <PackagePath>WinUI_Desktop\netstandard.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\API-MS-Win-core-xstate-l2-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\API-MS-Win-core-xstate-l2-1-0.dll">
       <PackagePath>WinUI_Desktop\API-MS-Win-core-xstate-l2-1-0.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\Microsoft.DiaSymReader.Native.x86.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\Microsoft.DiaSymReader.Native.x86.dll">
       <PackagePath>WinUI_Desktop\Microsoft.DiaSymReader.Native.x86.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\System.Private.CoreLib.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\System.Private.CoreLib.dll">
       <PackagePath>WinUI_Desktop\System.Private.CoreLib.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-core-console-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-core-console-l1-1-0.dll">
       <PackagePath>WinUI_Desktop\api-ms-win-core-console-l1-1-0.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-core-console-l1-2-0.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-core-console-l1-2-0.dll">
       <PackagePath>WinUI_Desktop\api-ms-win-core-console-l1-2-0.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-core-datetime-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-core-datetime-l1-1-0.dll">
       <PackagePath>WinUI_Desktop\api-ms-win-core-datetime-l1-1-0.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-core-debug-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-core-debug-l1-1-0.dll">
       <PackagePath>WinUI_Desktop\api-ms-win-core-debug-l1-1-0.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-core-errorhandling-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-core-errorhandling-l1-1-0.dll">
       <PackagePath>WinUI_Desktop\api-ms-win-core-errorhandling-l1-1-0.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-core-file-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-core-file-l1-1-0.dll">
       <PackagePath>WinUI_Desktop\api-ms-win-core-file-l1-1-0.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-core-file-l1-2-0.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-core-file-l1-2-0.dll">
       <PackagePath>WinUI_Desktop\api-ms-win-core-file-l1-2-0.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-core-file-l2-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-core-file-l2-1-0.dll">
       <PackagePath>WinUI_Desktop\api-ms-win-core-file-l2-1-0.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-core-handle-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-core-handle-l1-1-0.dll">
       <PackagePath>WinUI_Desktop\api-ms-win-core-handle-l1-1-0.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-core-heap-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-core-heap-l1-1-0.dll">
       <PackagePath>WinUI_Desktop\api-ms-win-core-heap-l1-1-0.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-core-interlocked-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-core-interlocked-l1-1-0.dll">
       <PackagePath>WinUI_Desktop\api-ms-win-core-interlocked-l1-1-0.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-core-libraryloader-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-core-libraryloader-l1-1-0.dll">
       <PackagePath>WinUI_Desktop\api-ms-win-core-libraryloader-l1-1-0.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-core-localization-l1-2-0.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-core-localization-l1-2-0.dll">
       <PackagePath>WinUI_Desktop\api-ms-win-core-localization-l1-2-0.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-core-memory-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-core-memory-l1-1-0.dll">
       <PackagePath>WinUI_Desktop\api-ms-win-core-memory-l1-1-0.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-core-namedpipe-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-core-namedpipe-l1-1-0.dll">
       <PackagePath>WinUI_Desktop\api-ms-win-core-namedpipe-l1-1-0.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-core-processenvironment-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-core-processenvironment-l1-1-0.dll">
       <PackagePath>WinUI_Desktop\api-ms-win-core-processenvironment-l1-1-0.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-core-processthreads-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-core-processthreads-l1-1-0.dll">
       <PackagePath>WinUI_Desktop\api-ms-win-core-processthreads-l1-1-0.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-core-processthreads-l1-1-1.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-core-processthreads-l1-1-1.dll">
       <PackagePath>WinUI_Desktop\api-ms-win-core-processthreads-l1-1-1.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-core-profile-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-core-profile-l1-1-0.dll">
       <PackagePath>WinUI_Desktop\api-ms-win-core-profile-l1-1-0.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-core-rtlsupport-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-core-rtlsupport-l1-1-0.dll">
       <PackagePath>WinUI_Desktop\api-ms-win-core-rtlsupport-l1-1-0.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-core-string-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-core-string-l1-1-0.dll">
       <PackagePath>WinUI_Desktop\api-ms-win-core-string-l1-1-0.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-core-synch-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-core-synch-l1-1-0.dll">
       <PackagePath>WinUI_Desktop\api-ms-win-core-synch-l1-1-0.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-core-synch-l1-2-0.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-core-synch-l1-2-0.dll">
       <PackagePath>WinUI_Desktop\api-ms-win-core-synch-l1-2-0.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-core-sysinfo-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-core-sysinfo-l1-1-0.dll">
       <PackagePath>WinUI_Desktop\api-ms-win-core-sysinfo-l1-1-0.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-core-timezone-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-core-timezone-l1-1-0.dll">
       <PackagePath>WinUI_Desktop\api-ms-win-core-timezone-l1-1-0.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-core-util-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-core-util-l1-1-0.dll">
       <PackagePath>WinUI_Desktop\api-ms-win-core-util-l1-1-0.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-crt-conio-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-crt-conio-l1-1-0.dll">
       <PackagePath>WinUI_Desktop\api-ms-win-crt-conio-l1-1-0.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-crt-convert-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-crt-convert-l1-1-0.dll">
       <PackagePath>WinUI_Desktop\api-ms-win-crt-convert-l1-1-0.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-crt-environment-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-crt-environment-l1-1-0.dll">
       <PackagePath>WinUI_Desktop\api-ms-win-crt-environment-l1-1-0.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-crt-filesystem-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-crt-filesystem-l1-1-0.dll">
       <PackagePath>WinUI_Desktop\api-ms-win-crt-filesystem-l1-1-0.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-crt-heap-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-crt-heap-l1-1-0.dll">
       <PackagePath>WinUI_Desktop\api-ms-win-crt-heap-l1-1-0.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-crt-locale-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-crt-locale-l1-1-0.dll">
       <PackagePath>WinUI_Desktop\api-ms-win-crt-locale-l1-1-0.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-crt-math-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-crt-math-l1-1-0.dll">
       <PackagePath>WinUI_Desktop\api-ms-win-crt-math-l1-1-0.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-crt-multibyte-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-crt-multibyte-l1-1-0.dll">
       <PackagePath>WinUI_Desktop\api-ms-win-crt-multibyte-l1-1-0.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-crt-private-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-crt-private-l1-1-0.dll">
       <PackagePath>WinUI_Desktop\api-ms-win-crt-private-l1-1-0.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-crt-process-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-crt-process-l1-1-0.dll">
       <PackagePath>WinUI_Desktop\api-ms-win-crt-process-l1-1-0.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-crt-runtime-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-crt-runtime-l1-1-0.dll">
       <PackagePath>WinUI_Desktop\api-ms-win-crt-runtime-l1-1-0.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-crt-stdio-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-crt-stdio-l1-1-0.dll">
       <PackagePath>WinUI_Desktop\api-ms-win-crt-stdio-l1-1-0.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-crt-string-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-crt-string-l1-1-0.dll">
       <PackagePath>WinUI_Desktop\api-ms-win-crt-string-l1-1-0.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-crt-time-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-crt-time-l1-1-0.dll">
       <PackagePath>WinUI_Desktop\api-ms-win-crt-time-l1-1-0.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-crt-utility-l1-1-0.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\api-ms-win-crt-utility-l1-1-0.dll">
       <PackagePath>WinUI_Desktop\api-ms-win-crt-utility-l1-1-0.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\clrcompression.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\clrcompression.dll">
       <PackagePath>WinUI_Desktop\clrcompression.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\clretwrc.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\clretwrc.dll">
       <PackagePath>WinUI_Desktop\clretwrc.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\clrjit.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\clrjit.dll">
       <PackagePath>WinUI_Desktop\clrjit.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\coreclr.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\coreclr.dll">
       <PackagePath>WinUI_Desktop\coreclr.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\createdump.exe">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\createdump.exe">
       <PackagePath>WinUI_Desktop\createdump.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\dbgshim.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\dbgshim.dll">
       <PackagePath>WinUI_Desktop\dbgshim.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\hostfxr.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\hostfxr.dll">
       <PackagePath>WinUI_Desktop\hostfxr.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\hostpolicy.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\hostpolicy.dll">
       <PackagePath>WinUI_Desktop\hostpolicy.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\mscordaccore.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\mscordaccore.dll">
       <PackagePath>WinUI_Desktop\mscordaccore.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\mscordaccore_x86_x86_5.0.20.27801.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\mscordaccore_x86_x86_5.0.20.27801.dll">
       <PackagePath>WinUI_Desktop\mscordaccore_x86_x86_5.0.20.27801.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\mscordbi.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\mscordbi.dll">
       <PackagePath>WinUI_Desktop\mscordbi.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\mscorrc.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\mscorrc.dll">
       <PackagePath>WinUI_Desktop\mscorrc.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\ucrtbase.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.netcore.app.runtime.win-x86\5.0.0-preview.5.20278.1\runtimes\win-x86\native\ucrtbase.dll">
       <PackagePath>WinUI_Desktop\ucrtbase.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.windows.cswinrt\0.1.0-prerelease.200629.3\lib\net5.0\winrt.runtime.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.windows.cswinrt\0.1.0-prerelease.200629.3\lib\net5.0\winrt.runtime.dll">
       <PackagePath>WinUI_Desktop\winrt.runtime.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.windows.sdk.net\10.0.18362.6-preview\lib\net5.0\Microsoft.Windows.SDK.NET.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.windows.sdk.net\10.0.18362.6-preview\lib\net5.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>WinUI_Desktop\Microsoft.Windows.SDK.NET.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.winui\3.0.0-preview2.200713.0\lib\net5.0\Microsoft.WinUI.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.winui\3.0.0-preview2.200713.0\lib\net5.0\Microsoft.WinUI.dll">
       <PackagePath>WinUI_Desktop\Microsoft.WinUI.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.winui\3.0.0-preview2.200713.0\runtimes\win10-x86\native\Microsoft.UI.Xaml.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.winui\3.0.0-preview2.200713.0\runtimes\win10-x86\native\Microsoft.UI.Xaml.dll">
       <PackagePath>WinUI_Desktop\Microsoft.UI.Xaml.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.winui\3.0.0-preview2.200713.0\runtimes\win10-x86\native\Microsoft.UI.Xaml.Phone.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.winui\3.0.0-preview2.200713.0\runtimes\win10-x86\native\Microsoft.UI.Xaml.Phone.dll">
       <PackagePath>WinUI_Desktop\Microsoft.UI.Xaml.Phone.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.winui\3.0.0-preview2.200713.0\runtimes\win10-x86\native\Microsoft.UI.Xaml.Controls.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.winui\3.0.0-preview2.200713.0\runtimes\win10-x86\native\Microsoft.UI.Xaml.Controls.dll">
       <PackagePath>WinUI_Desktop\Microsoft.UI.Xaml.Controls.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.winui\3.0.0-preview2.200713.0\runtimes\win10-x86\native\Microsoft.UI.Xaml.Controls.pri">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.winui\3.0.0-preview2.200713.0\runtimes\win10-x86\native\Microsoft.UI.Xaml.Controls.pri">
       <PackagePath>WinUI_Desktop\Microsoft.UI.Xaml.Controls.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.winui\3.0.0-preview2.200713.0\runtimes\win10-x86\native\Microsoft.ui.xaml.resources.19h1.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.winui\3.0.0-preview2.200713.0\runtimes\win10-x86\native\Microsoft.ui.xaml.resources.19h1.dll">
       <PackagePath>WinUI_Desktop\Microsoft.ui.xaml.resources.19h1.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.winui\3.0.0-preview2.200713.0\runtimes\win10-x86\native\Microsoft.ui.xaml.resources.common.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.winui\3.0.0-preview2.200713.0\runtimes\win10-x86\native\Microsoft.ui.xaml.resources.common.dll">
       <PackagePath>WinUI_Desktop\Microsoft.ui.xaml.resources.common.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.winui\3.0.0-preview2.200713.0\runtimes\win10-x86\native\Microsoft.Internal.XamlUdk.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.winui\3.0.0-preview2.200713.0\runtimes\win10-x86\native\Microsoft.Internal.XamlUdk.dll">
       <PackagePath>WinUI_Desktop\Microsoft.Internal.XamlUdk.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.winui\3.0.0-preview2.200713.0\runtimes\win10-x86\native\Microsoft.UI.Xaml.Internal.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.winui\3.0.0-preview2.200713.0\runtimes\win10-x86\native\Microsoft.UI.Xaml.Internal.dll">
       <PackagePath>WinUI_Desktop\Microsoft.UI.Xaml.Internal.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.winui\3.0.0-preview2.200713.0\runtimes\win10-x86\native\WinUIEdit.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.winui\3.0.0-preview2.200713.0\runtimes\win10-x86\native\WinUIEdit.dll">
       <PackagePath>WinUI_Desktop\WinUIEdit.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.winui\3.0.0-preview2.200713.0\runtimes\win10-x86\native\en-us\Microsoft.ui.xaml.dll.mui">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.winui\3.0.0-preview2.200713.0\runtimes\win10-x86\native\en-us\Microsoft.ui.xaml.dll.mui">
       <PackagePath>WinUI_Desktop\en-us\Microsoft.ui.xaml.dll.mui</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.winui\3.0.0-preview2.200713.0\runtimes\win10-x86\native\en-us\Microsoft.UI.Xaml.Phone.dll.mui">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.winui\3.0.0-preview2.200713.0\runtimes\win10-x86\native\en-us\Microsoft.UI.Xaml.Phone.dll.mui">
       <PackagePath>WinUI_Desktop\en-us\Microsoft.UI.Xaml.Phone.dll.mui</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.winui\3.0.0-preview2.200713.0\runtimes\win10-x86\native\CoreMessagingXP.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.winui\3.0.0-preview2.200713.0\runtimes\win10-x86\native\CoreMessagingXP.dll">
       <PackagePath>WinUI_Desktop\CoreMessagingXP.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.winui\3.0.0-preview2.200713.0\runtimes\win10-x86\native\dcompi.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.winui\3.0.0-preview2.200713.0\runtimes\win10-x86\native\dcompi.dll">
       <PackagePath>WinUI_Desktop\dcompi.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.winui\3.0.0-preview2.200713.0\runtimes\win10-x86\native\dwmcorei.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.winui\3.0.0-preview2.200713.0\runtimes\win10-x86\native\dwmcorei.dll">
       <PackagePath>WinUI_Desktop\dwmcorei.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.winui\3.0.0-preview2.200713.0\runtimes\win10-x86\native\inprocstubs.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.winui\3.0.0-preview2.200713.0\runtimes\win10-x86\native\inprocstubs.dll">
       <PackagePath>WinUI_Desktop\inprocstubs.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.winui\3.0.0-preview2.200713.0\runtimes\win10-x86\native\marshal.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.winui\3.0.0-preview2.200713.0\runtimes\win10-x86\native\marshal.dll">
       <PackagePath>WinUI_Desktop\marshal.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.winui\3.0.0-preview2.200713.0\runtimes\win10-x86\native\marshal_umode.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.winui\3.0.0-preview2.200713.0\runtimes\win10-x86\native\marshal_umode.dll">
       <PackagePath>WinUI_Desktop\marshal_umode.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.winui\3.0.0-preview2.200713.0\runtimes\win10-x86\native\Microsoft.DirectManipulation.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.winui\3.0.0-preview2.200713.0\runtimes\win10-x86\native\Microsoft.DirectManipulation.dll">
       <PackagePath>WinUI_Desktop\Microsoft.DirectManipulation.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.winui\3.0.0-preview2.200713.0\runtimes\win10-x86\native\Microsoft.InputStateManager.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.winui\3.0.0-preview2.200713.0\runtimes\win10-x86\native\Microsoft.InputStateManager.dll">
       <PackagePath>WinUI_Desktop\Microsoft.InputStateManager.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.winui\3.0.0-preview2.200713.0\runtimes\win10-x86\native\Microsoft.UI.Input.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.winui\3.0.0-preview2.200713.0\runtimes\win10-x86\native\Microsoft.UI.Input.dll">
       <PackagePath>WinUI_Desktop\Microsoft.UI.Input.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.winui\3.0.0-preview2.200713.0\runtimes\win10-x86\native\wuceffectsi.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.winui\3.0.0-preview2.200713.0\runtimes\win10-x86\native\wuceffectsi.dll">
       <PackagePath>WinUI_Desktop\wuceffectsi.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.winui\3.0.0-preview2.200713.0\runtimes\win10-x86\native\WebView2Loader.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.winui\3.0.0-preview2.200713.0\runtimes\win10-x86\native\WebView2Loader.dll">
       <PackagePath>WinUI_Desktop\WebView2Loader.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.vcrtforwarders.140\1.0.6\runtimes\win10-x86\native\debug\concrt140d_app.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.vcrtforwarders.140\1.0.6\runtimes\win10-x86\native\debug\concrt140d_app.dll">
       <PackagePath>WinUI_Desktop\concrt140d_app.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.vcrtforwarders.140\1.0.6\runtimes\win10-x86\native\debug\msvcp140d_app.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.vcrtforwarders.140\1.0.6\runtimes\win10-x86\native\debug\msvcp140d_app.dll">
       <PackagePath>WinUI_Desktop\msvcp140d_app.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.vcrtforwarders.140\1.0.6\runtimes\win10-x86\native\debug\msvcp140_1d_app.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.vcrtforwarders.140\1.0.6\runtimes\win10-x86\native\debug\msvcp140_1d_app.dll">
       <PackagePath>WinUI_Desktop\msvcp140_1d_app.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.vcrtforwarders.140\1.0.6\runtimes\win10-x86\native\debug\msvcp140_2d_app.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.vcrtforwarders.140\1.0.6\runtimes\win10-x86\native\debug\msvcp140_2d_app.dll">
       <PackagePath>WinUI_Desktop\msvcp140_2d_app.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.vcrtforwarders.140\1.0.6\runtimes\win10-x86\native\debug\vcamp140d_app.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.vcrtforwarders.140\1.0.6\runtimes\win10-x86\native\debug\vcamp140d_app.dll">
       <PackagePath>WinUI_Desktop\vcamp140d_app.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.vcrtforwarders.140\1.0.6\runtimes\win10-x86\native\debug\vccorlib140d_app.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.vcrtforwarders.140\1.0.6\runtimes\win10-x86\native\debug\vccorlib140d_app.dll">
       <PackagePath>WinUI_Desktop\vccorlib140d_app.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.vcrtforwarders.140\1.0.6\runtimes\win10-x86\native\debug\vcomp140d_app.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.vcrtforwarders.140\1.0.6\runtimes\win10-x86\native\debug\vcomp140d_app.dll">
       <PackagePath>WinUI_Desktop\vcomp140d_app.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.vcrtforwarders.140\1.0.6\runtimes\win10-x86\native\debug\vcruntime140d_app.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.vcrtforwarders.140\1.0.6\runtimes\win10-x86\native\debug\vcruntime140d_app.dll">
       <PackagePath>WinUI_Desktop\vcruntime140d_app.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.vcrtforwarders.140\1.0.6\runtimes\win10-x86\native\release\concrt140_app.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.vcrtforwarders.140\1.0.6\runtimes\win10-x86\native\release\concrt140_app.dll">
       <PackagePath>WinUI_Desktop\concrt140_app.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.vcrtforwarders.140\1.0.6\runtimes\win10-x86\native\release\msvcp140_1_app.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.vcrtforwarders.140\1.0.6\runtimes\win10-x86\native\release\msvcp140_1_app.dll">
       <PackagePath>WinUI_Desktop\msvcp140_1_app.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.vcrtforwarders.140\1.0.6\runtimes\win10-x86\native\release\msvcp140_2_app.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.vcrtforwarders.140\1.0.6\runtimes\win10-x86\native\release\msvcp140_2_app.dll">
       <PackagePath>WinUI_Desktop\msvcp140_2_app.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.vcrtforwarders.140\1.0.6\runtimes\win10-x86\native\release\msvcp140_app.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.vcrtforwarders.140\1.0.6\runtimes\win10-x86\native\release\msvcp140_app.dll">
       <PackagePath>WinUI_Desktop\msvcp140_app.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.vcrtforwarders.140\1.0.6\runtimes\win10-x86\native\release\vcamp140_app.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.vcrtforwarders.140\1.0.6\runtimes\win10-x86\native\release\vcamp140_app.dll">
       <PackagePath>WinUI_Desktop\vcamp140_app.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.vcrtforwarders.140\1.0.6\runtimes\win10-x86\native\release\vccorlib140_app.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.vcrtforwarders.140\1.0.6\runtimes\win10-x86\native\release\vccorlib140_app.dll">
       <PackagePath>WinUI_Desktop\vccorlib140_app.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.vcrtforwarders.140\1.0.6\runtimes\win10-x86\native\release\vcomp140_app.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.vcrtforwarders.140\1.0.6\runtimes\win10-x86\native\release\vcomp140_app.dll">
       <PackagePath>WinUI_Desktop\vcomp140_app.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kobe9\.nuget\packages\microsoft.vcrtforwarders.140\1.0.6\runtimes\win10-x86\native\release\vcruntime140_app.dll">
+    <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.vcrtforwarders.140\1.0.6\runtimes\win10-x86\native\release\vcruntime140_app.dll">
       <PackagePath>WinUI_Desktop\vcruntime140_app.dll</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
@@ -891,6 +894,14 @@
       <Architecture>ARM</Architecture>
       <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug.UWPDesktop, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\.\AppX\Debug\arm\Microsoft.VCLibs.arm.Debug.14.00.Desktop.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug.UWPDesktop</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug.UWPDesktop, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\.\AppX\Debug\arm64\Microsoft.VCLibs.arm64.Debug.14.00.Desktop.appx</AppxLocation>
       <MoreInfo></MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs.Desktop\14.0\">

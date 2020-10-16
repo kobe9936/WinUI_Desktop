@@ -223,7 +223,7 @@ namespace WinUI_Desktop.WinUI_Desktop_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[39];
+            _typeNameTable = new string[40];
             _typeNameTable[0] = "Microsoft.UI.Xaml.Controls.XamlControlsResources";
             _typeNameTable[1] = "Microsoft.UI.Xaml.ResourceDictionary";
             _typeNameTable[2] = "Object";
@@ -237,34 +237,35 @@ namespace WinUI_Desktop.WinUI_Desktop_XamlTypeInfo
             _typeNameTable[10] = "Microsoft.UI.Xaml.Controls.Page";
             _typeNameTable[11] = "Microsoft.UI.Xaml.Controls.UserControl";
             _typeNameTable[12] = "WinUI_Desktop.HomePage";
-            _typeNameTable[13] = "Microsoft.UI.Xaml.Controls.NavigationView";
-            _typeNameTable[14] = "Microsoft.UI.Xaml.Controls.ContentControl";
-            _typeNameTable[15] = "System.Collections.Generic.IList`1<Object>";
-            _typeNameTable[16] = "Microsoft.UI.Xaml.Controls.AutoSuggestBox";
-            _typeNameTable[17] = "Microsoft.UI.Xaml.UIElement";
-            _typeNameTable[18] = "Double";
-            _typeNameTable[19] = "Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode";
-            _typeNameTable[20] = "System.Enum";
-            _typeNameTable[21] = "Microsoft.UI.Xaml.DataTemplate";
-            _typeNameTable[22] = "Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible";
-            _typeNameTable[23] = "Microsoft.UI.Xaml.Style";
-            _typeNameTable[24] = "Microsoft.UI.Xaml.Controls.StyleSelector";
-            _typeNameTable[25] = "Microsoft.UI.Xaml.Controls.DataTemplateSelector";
-            _typeNameTable[26] = "Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode";
-            _typeNameTable[27] = "Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode";
-            _typeNameTable[28] = "String";
-            _typeNameTable[29] = "Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus";
-            _typeNameTable[30] = "Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled";
-            _typeNameTable[31] = "Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings";
-            _typeNameTable[32] = "Microsoft.UI.Xaml.DependencyObject";
-            _typeNameTable[33] = "Microsoft.UI.Xaml.Controls.NavigationViewItem";
-            _typeNameTable[34] = "Microsoft.UI.Xaml.Controls.NavigationViewItemBase";
-            _typeNameTable[35] = "Microsoft.UI.Xaml.Controls.IconElement";
-            _typeNameTable[36] = "WinUI_Desktop.MainWindow";
-            _typeNameTable[37] = "Microsoft.UI.Xaml.Window";
-            _typeNameTable[38] = "WinUI_Desktop.MicrosoftHomePage";
+            _typeNameTable[13] = "WinUI_Desktop.LoginPage";
+            _typeNameTable[14] = "Microsoft.UI.Xaml.Controls.NavigationView";
+            _typeNameTable[15] = "Microsoft.UI.Xaml.Controls.ContentControl";
+            _typeNameTable[16] = "System.Collections.Generic.IList`1<Object>";
+            _typeNameTable[17] = "Microsoft.UI.Xaml.Controls.AutoSuggestBox";
+            _typeNameTable[18] = "Microsoft.UI.Xaml.UIElement";
+            _typeNameTable[19] = "Double";
+            _typeNameTable[20] = "Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode";
+            _typeNameTable[21] = "System.Enum";
+            _typeNameTable[22] = "Microsoft.UI.Xaml.DataTemplate";
+            _typeNameTable[23] = "Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible";
+            _typeNameTable[24] = "Microsoft.UI.Xaml.Style";
+            _typeNameTable[25] = "Microsoft.UI.Xaml.Controls.StyleSelector";
+            _typeNameTable[26] = "Microsoft.UI.Xaml.Controls.DataTemplateSelector";
+            _typeNameTable[27] = "Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode";
+            _typeNameTable[28] = "Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode";
+            _typeNameTable[29] = "String";
+            _typeNameTable[30] = "Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus";
+            _typeNameTable[31] = "Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled";
+            _typeNameTable[32] = "Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings";
+            _typeNameTable[33] = "Microsoft.UI.Xaml.DependencyObject";
+            _typeNameTable[34] = "Microsoft.UI.Xaml.Controls.NavigationViewItem";
+            _typeNameTable[35] = "Microsoft.UI.Xaml.Controls.NavigationViewItemBase";
+            _typeNameTable[36] = "Microsoft.UI.Xaml.Controls.IconElement";
+            _typeNameTable[37] = "WinUI_Desktop.MainWindow";
+            _typeNameTable[38] = "Microsoft.UI.Xaml.Window";
+            _typeNameTable[39] = "WinUI_Desktop.MicrosoftHomePage";
 
-            _typeTable = new global::System.Type[39];
+            _typeTable = new global::System.Type[40];
             _typeTable[0] = typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources);
             _typeTable[1] = typeof(global::Microsoft.UI.Xaml.ResourceDictionary);
             _typeTable[2] = typeof(global::System.Object);
@@ -278,32 +279,33 @@ namespace WinUI_Desktop.WinUI_Desktop_XamlTypeInfo
             _typeTable[10] = typeof(global::Microsoft.UI.Xaml.Controls.Page);
             _typeTable[11] = typeof(global::Microsoft.UI.Xaml.Controls.UserControl);
             _typeTable[12] = typeof(global::WinUI_Desktop.HomePage);
-            _typeTable[13] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationView);
-            _typeTable[14] = typeof(global::Microsoft.UI.Xaml.Controls.ContentControl);
-            _typeTable[15] = typeof(global::System.Collections.Generic.IList<global::System.Object>);
-            _typeTable[16] = typeof(global::Microsoft.UI.Xaml.Controls.AutoSuggestBox);
-            _typeTable[17] = typeof(global::Microsoft.UI.Xaml.UIElement);
-            _typeTable[18] = typeof(global::System.Double);
-            _typeTable[19] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode);
-            _typeTable[20] = typeof(global::System.Enum);
-            _typeTable[21] = typeof(global::Microsoft.UI.Xaml.DataTemplate);
-            _typeTable[22] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible);
-            _typeTable[23] = typeof(global::Microsoft.UI.Xaml.Style);
-            _typeTable[24] = typeof(global::Microsoft.UI.Xaml.Controls.StyleSelector);
-            _typeTable[25] = typeof(global::Microsoft.UI.Xaml.Controls.DataTemplateSelector);
-            _typeTable[26] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode);
-            _typeTable[27] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode);
-            _typeTable[28] = typeof(global::System.String);
-            _typeTable[29] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus);
-            _typeTable[30] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled);
-            _typeTable[31] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings);
-            _typeTable[32] = typeof(global::Microsoft.UI.Xaml.DependencyObject);
-            _typeTable[33] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewItem);
-            _typeTable[34] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewItemBase);
-            _typeTable[35] = typeof(global::Microsoft.UI.Xaml.Controls.IconElement);
-            _typeTable[36] = typeof(global::WinUI_Desktop.MainWindow);
-            _typeTable[37] = typeof(global::Microsoft.UI.Xaml.Window);
-            _typeTable[38] = typeof(global::WinUI_Desktop.MicrosoftHomePage);
+            _typeTable[13] = typeof(global::WinUI_Desktop.LoginPage);
+            _typeTable[14] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationView);
+            _typeTable[15] = typeof(global::Microsoft.UI.Xaml.Controls.ContentControl);
+            _typeTable[16] = typeof(global::System.Collections.Generic.IList<global::System.Object>);
+            _typeTable[17] = typeof(global::Microsoft.UI.Xaml.Controls.AutoSuggestBox);
+            _typeTable[18] = typeof(global::Microsoft.UI.Xaml.UIElement);
+            _typeTable[19] = typeof(global::System.Double);
+            _typeTable[20] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode);
+            _typeTable[21] = typeof(global::System.Enum);
+            _typeTable[22] = typeof(global::Microsoft.UI.Xaml.DataTemplate);
+            _typeTable[23] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible);
+            _typeTable[24] = typeof(global::Microsoft.UI.Xaml.Style);
+            _typeTable[25] = typeof(global::Microsoft.UI.Xaml.Controls.StyleSelector);
+            _typeTable[26] = typeof(global::Microsoft.UI.Xaml.Controls.DataTemplateSelector);
+            _typeTable[27] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode);
+            _typeTable[28] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode);
+            _typeTable[29] = typeof(global::System.String);
+            _typeTable[30] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus);
+            _typeTable[31] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled);
+            _typeTable[32] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings);
+            _typeTable[33] = typeof(global::Microsoft.UI.Xaml.DependencyObject);
+            _typeTable[34] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewItem);
+            _typeTable[35] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewItemBase);
+            _typeTable[36] = typeof(global::Microsoft.UI.Xaml.Controls.IconElement);
+            _typeTable[37] = typeof(global::WinUI_Desktop.MainWindow);
+            _typeTable[38] = typeof(global::Microsoft.UI.Xaml.Window);
+            _typeTable[39] = typeof(global::WinUI_Desktop.MicrosoftHomePage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -342,11 +344,12 @@ namespace WinUI_Desktop.WinUI_Desktop_XamlTypeInfo
         private object Activate_6_WebView2() { return new global::Microsoft.UI.Xaml.Controls.WebView2(); }
         private object Activate_9_GooglePage() { return new global::WinUI_Desktop.GooglePage(); }
         private object Activate_12_HomePage() { return new global::WinUI_Desktop.HomePage(); }
-        private object Activate_13_NavigationView() { return new global::Microsoft.UI.Xaml.Controls.NavigationView(); }
-        private object Activate_31_NavigationViewTemplateSettings() { return new global::Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings(); }
-        private object Activate_33_NavigationViewItem() { return new global::Microsoft.UI.Xaml.Controls.NavigationViewItem(); }
-        private object Activate_36_MainWindow() { return new global::WinUI_Desktop.MainWindow(); }
-        private object Activate_38_MicrosoftHomePage() { return new global::WinUI_Desktop.MicrosoftHomePage(); }
+        private object Activate_13_LoginPage() { return new global::WinUI_Desktop.LoginPage(); }
+        private object Activate_14_NavigationView() { return new global::Microsoft.UI.Xaml.Controls.NavigationView(); }
+        private object Activate_32_NavigationViewTemplateSettings() { return new global::Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings(); }
+        private object Activate_34_NavigationViewItem() { return new global::Microsoft.UI.Xaml.Controls.NavigationViewItem(); }
+        private object Activate_37_MainWindow() { return new global::WinUI_Desktop.MainWindow(); }
+        private object Activate_39_MicrosoftHomePage() { return new global::WinUI_Desktop.MicrosoftHomePage(); }
         private void MapAdd_0_XamlControlsResources(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.Object, global::System.Object>)instance;
@@ -354,7 +357,7 @@ namespace WinUI_Desktop.WinUI_Desktop_XamlTypeInfo
             var newItem = (global::System.Object)item;
             collection.Add(newKey, newItem);
         }
-        private void VectorAdd_15_IList(object instance, object item)
+        private void VectorAdd_16_IList(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::System.Object>)instance;
             var newItem = (global::System.Object)item;
@@ -445,9 +448,16 @@ namespace WinUI_Desktop.WinUI_Desktop_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 13:   //  Microsoft.UI.Xaml.Controls.NavigationView
+            case 13:   //  WinUI_Desktop.LoginPage
+                userType = new global::WinUI_Desktop.WinUI_Desktop_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_13_LoginPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 14:   //  Microsoft.UI.Xaml.Controls.NavigationView
                 userType = new global::WinUI_Desktop.WinUI_Desktop_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ContentControl"));
-                userType.Activator = Activate_13_NavigationView;
+                userType.Activator = Activate_14_NavigationView;
                 userType.AddMemberName("IsSettingsVisible");
                 userType.AddMemberName("MenuItems");
                 userType.AddMemberName("AutoSuggestBox");
@@ -487,30 +497,30 @@ namespace WinUI_Desktop.WinUI_Desktop_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 14:   //  Microsoft.UI.Xaml.Controls.ContentControl
+            case 15:   //  Microsoft.UI.Xaml.Controls.ContentControl
                 xamlType = new global::WinUI_Desktop.WinUI_Desktop_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 15:   //  System.Collections.Generic.IList`1<Object>
+            case 16:   //  System.Collections.Generic.IList`1<Object>
                 userType = new global::WinUI_Desktop.WinUI_Desktop_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.CollectionAdd = VectorAdd_15_IList;
+                userType.CollectionAdd = VectorAdd_16_IList;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 16:   //  Microsoft.UI.Xaml.Controls.AutoSuggestBox
+            case 17:   //  Microsoft.UI.Xaml.Controls.AutoSuggestBox
                 xamlType = new global::WinUI_Desktop.WinUI_Desktop_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 17:   //  Microsoft.UI.Xaml.UIElement
+            case 18:   //  Microsoft.UI.Xaml.UIElement
                 xamlType = new global::WinUI_Desktop.WinUI_Desktop_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 18:   //  Double
+            case 19:   //  Double
                 xamlType = new global::WinUI_Desktop.WinUI_Desktop_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 19:   //  Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode
+            case 20:   //  Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode
                 userType = new global::WinUI_Desktop.WinUI_Desktop_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Minimal", global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode.Minimal);
                 userType.AddEnumValue("Compact", global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode.Compact);
@@ -518,16 +528,16 @@ namespace WinUI_Desktop.WinUI_Desktop_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 20:   //  System.Enum
+            case 21:   //  System.Enum
                 userType = new global::WinUI_Desktop.WinUI_Desktop_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 xamlType = userType;
                 break;
 
-            case 21:   //  Microsoft.UI.Xaml.DataTemplate
+            case 22:   //  Microsoft.UI.Xaml.DataTemplate
                 xamlType = new global::WinUI_Desktop.WinUI_Desktop_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 22:   //  Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible
+            case 23:   //  Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible
                 userType = new global::WinUI_Desktop.WinUI_Desktop_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Collapsed", global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible.Collapsed);
                 userType.AddEnumValue("Visible", global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible.Visible);
@@ -535,26 +545,26 @@ namespace WinUI_Desktop.WinUI_Desktop_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 23:   //  Microsoft.UI.Xaml.Style
+            case 24:   //  Microsoft.UI.Xaml.Style
                 xamlType = new global::WinUI_Desktop.WinUI_Desktop_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 24:   //  Microsoft.UI.Xaml.Controls.StyleSelector
+            case 25:   //  Microsoft.UI.Xaml.Controls.StyleSelector
                 xamlType = new global::WinUI_Desktop.WinUI_Desktop_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 25:   //  Microsoft.UI.Xaml.Controls.DataTemplateSelector
+            case 26:   //  Microsoft.UI.Xaml.Controls.DataTemplateSelector
                 xamlType = new global::WinUI_Desktop.WinUI_Desktop_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 26:   //  Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode
+            case 27:   //  Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode
                 userType = new global::WinUI_Desktop.WinUI_Desktop_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("MoreLabel", global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode.MoreLabel);
                 userType.AddEnumValue("NoLabel", global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode.NoLabel);
                 xamlType = userType;
                 break;
 
-            case 27:   //  Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode
+            case 28:   //  Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode
                 userType = new global::WinUI_Desktop.WinUI_Desktop_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Auto", global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode.Auto);
                 userType.AddEnumValue("Left", global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode.Left);
@@ -564,18 +574,18 @@ namespace WinUI_Desktop.WinUI_Desktop_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 28:   //  String
+            case 29:   //  String
                 xamlType = new global::WinUI_Desktop.WinUI_Desktop_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 29:   //  Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus
+            case 30:   //  Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus
                 userType = new global::WinUI_Desktop.WinUI_Desktop_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Disabled", global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus.Disabled);
                 userType.AddEnumValue("Enabled", global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus.Enabled);
                 xamlType = userType;
                 break;
 
-            case 30:   //  Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled
+            case 31:   //  Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled
                 userType = new global::WinUI_Desktop.WinUI_Desktop_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("WhenSelectionFollowsFocus", global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled.WhenSelectionFollowsFocus);
                 userType.AddEnumValue("Always", global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled.Always);
@@ -583,19 +593,19 @@ namespace WinUI_Desktop.WinUI_Desktop_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 31:   //  Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings
+            case 32:   //  Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings
                 userType = new global::WinUI_Desktop.WinUI_Desktop_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 32:   //  Microsoft.UI.Xaml.DependencyObject
+            case 33:   //  Microsoft.UI.Xaml.DependencyObject
                 xamlType = new global::WinUI_Desktop.WinUI_Desktop_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 33:   //  Microsoft.UI.Xaml.Controls.NavigationViewItem
+            case 34:   //  Microsoft.UI.Xaml.Controls.NavigationViewItem
                 userType = new global::WinUI_Desktop.WinUI_Desktop_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationViewItemBase"));
-                userType.Activator = Activate_33_NavigationViewItem;
+                userType.Activator = Activate_34_NavigationViewItem;
                 userType.AddMemberName("Icon");
                 userType.AddMemberName("ThisPtr");
                 userType.AddMemberName("CompactPaneLength");
@@ -608,30 +618,30 @@ namespace WinUI_Desktop.WinUI_Desktop_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 34:   //  Microsoft.UI.Xaml.Controls.NavigationViewItemBase
+            case 35:   //  Microsoft.UI.Xaml.Controls.NavigationViewItemBase
                 userType = new global::WinUI_Desktop.WinUI_Desktop_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ContentControl"));
                 userType.AddMemberName("IsSelected");
                 xamlType = userType;
                 break;
 
-            case 35:   //  Microsoft.UI.Xaml.Controls.IconElement
+            case 36:   //  Microsoft.UI.Xaml.Controls.IconElement
                 xamlType = new global::WinUI_Desktop.WinUI_Desktop_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 36:   //  WinUI_Desktop.MainWindow
+            case 37:   //  WinUI_Desktop.MainWindow
                 userType = new global::WinUI_Desktop.WinUI_Desktop_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Window"));
-                userType.Activator = Activate_36_MainWindow;
+                userType.Activator = Activate_37_MainWindow;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 37:   //  Microsoft.UI.Xaml.Window
+            case 38:   //  Microsoft.UI.Xaml.Window
                 xamlType = new global::WinUI_Desktop.WinUI_Desktop_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 38:   //  WinUI_Desktop.MicrosoftHomePage
+            case 39:   //  WinUI_Desktop.MicrosoftHomePage
                 userType = new global::WinUI_Desktop.WinUI_Desktop_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_38_MicrosoftHomePage;
+                userType.Activator = Activate_39_MicrosoftHomePage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

@@ -31,6 +31,21 @@ namespace WinUI_Desktop
             this.Title = "Main Window";
             rootFrame.Navigate(typeof(HomePage));
         }
+
+        private void LoginBtn_Click(object sender, RoutedEventArgs e)
+        {
+
+            LoginButton.Label = "Login";
+            //LoginButton.Icon = new SymbolIcon(Symbol.Contact); ;
+            rootFrame.Navigate(typeof(LoginPage));
+
+        }
+
+        private void onShouldStartLoadWithRequest()
+        {
+
+        }
+
         private void NavView_ItemInvoked(NavigationView sender, NavigationViewItemInvokedEventArgs args)
         {         
             Type pageType = typeof(HomePage);
@@ -41,6 +56,7 @@ namespace WinUI_Desktop
                 pageType = typeof(MicrosoftHomePage);
             else if (invokedItem == NavViewItem_Google)
                 pageType = typeof(GooglePage);
+
             rootFrame.Navigate(pageType);
 
         }

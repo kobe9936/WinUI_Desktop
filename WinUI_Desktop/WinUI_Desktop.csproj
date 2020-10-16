@@ -11,15 +11,18 @@
     <SelfContained>true</SelfContained>
     <RuntimeIdentifiers>win-x86;win-x64</RuntimeIdentifiers>
     <RuntimeIdentifier>win-$(Platform)</RuntimeIdentifier>
-  </PropertyGroup>  
+  </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.VCRTForwarders.140" Version="1.0.6" />
     <PackageReference Include="Microsoft.WinUI" Version="3.0.0-preview2.200713.0" />
     <Manifest Include="$(ApplicationManifest)" />
-  </ItemGroup>
+  </ItemGroup>  
 
   <ItemGroup>
+    <Page Update="LoginPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Update="GooglePage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -29,9 +32,6 @@
     <Page Update="MicrosoftHomePage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>
-  </ItemGroup>
-
-  <ItemGroup>
     <Page Update="App.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>

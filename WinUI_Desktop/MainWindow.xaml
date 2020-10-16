@@ -13,9 +13,12 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <StackPanel x:Name="HeaderPanel" Orientation="Horizontal" Height="35">
-            <Image x:Name="TSMCLogo" Stretch="Uniform" Source="/Images/tsmc-logo.png" Margin="5,5,0,5"   />
-        </StackPanel>
+        <RelativePanel x:Name="HeaderPanel" Height="35">
+            <Image x:Name="TSMCLogo" Stretch="Uniform" Source="/Images/tsmc-logo.png" Margin="5,5,0,5" RelativePanel.AlignLeftWithPanel ="True" />
+            <!--<NavigationViewItem Icon="Help" RelativePanel.LeftOf ="NavViewItem_Login" />-->
+            <AppBarButton x:Name="LoginButton" Icon="AddFriend" Label="Not Login" Click="LoginBtn_Click"  RelativePanel.AlignRightWithPanel ="True"/>
+
+        </RelativePanel>
 
         <NavigationView Grid.Row="1"
                 x:Name="NavigationViewControl"            
@@ -27,6 +30,7 @@
                 <NavigationViewItem Icon="World" Content="Google" x:Name="NavViewItem_Google"/>
                 <NavigationViewItem Icon="AllApps" Content="Controls"/>
                 <NavigationViewItem Icon="Copy" Content="Copy"/>
+
                 <NavigationViewItem Icon="Delete" Content="Delete"/>
                 <NavigationViewItem Icon="Phone" Content="Phone"/>
                 <NavigationViewItem Icon="Refresh" Content="Refresh"/>
@@ -45,7 +49,7 @@
             </NavigationView.AutoSuggestBox>
 
             <NavigationView.PaneFooter>
-                <NavigationViewItem Icon="Contact" Content="User"/>
+                <NavigationViewItem Icon="Setting" Content="Setting"/>
             </NavigationView.PaneFooter>
 
             <Frame x:Name="rootFrame"/>
