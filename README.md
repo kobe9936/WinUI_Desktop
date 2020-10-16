@@ -8,7 +8,7 @@ products:
 description: Demonstrates the usage of OAuth2, WinUI3 and WebView2 controls.
 ---
 
-# WinUI & OAuth2
+# WinUI3 & OAuth2
 
 ![WinUI_Desktop Screenshot](README_Images/WinUI_Desktop.png)
 
