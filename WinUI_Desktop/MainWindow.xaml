@@ -13,10 +13,28 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <RelativePanel Height="35">
-            <Image x:Name="TSMCLogo" Stretch="Uniform" Source="/Images/tsmc-logo.png" Margin="5,5,0,5" RelativePanel.AlignLeftWithPanel ="True" />
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Background="{ThemeResource NavigationViewDefaultPaneBackground}">
+            <Image x:Name="TSMCLogo" Stretch="Uniform" Height="25" Source="/Images/tsmc-logo.png" Margin="5,5,0,5" RelativePanel.AlignLeftWithPanel ="True" />
+            <Button x:Name="CallGraphButton" Content="Call Microsoft Graph API" HorizontalAlignment="Right" Padding="5"  Click="CallGraphButton_ClickAsync" Margin="5" FontFamily="Segoe Ui" />
+            <Button x:Name="SignOutButton" Content="Sign-Out" HorizontalAlignment="Right" Padding="5"  Margin="5" Visibility="Collapsed" FontFamily="Segoe Ui" />
+            <TextBlock Text="API Call Results" Margin="0,0,0,-5" FontFamily="Segoe Ui" />
+            <TextBox x:Name="ResultText" TextWrapping="Wrap" MinHeight="120" Margin="5" FontFamily="Segoe Ui"/>
+            <TextBlock Text="Token Info" Margin="0,0,0,-5" FontFamily="Segoe Ui" />
+            <TextBox x:Name="TokenInfoText" TextWrapping="Wrap" MinHeight="70" Margin="5" FontFamily="Segoe Ui"/>
             <AppBarButton x:Name="LoginButton" Icon="AddFriend" Label="Not Login" Click="LoginBtn_Click"  RelativePanel.AlignRightWithPanel ="True"/>
-        </RelativePanel>
+        </StackPanel>
+
+
+        <!--<RelativePanel Height="35" Background="{ThemeResource NavigationViewDefaultPaneBackground}" >
+            <Image x:Name="TSMCLogo" Stretch="Uniform" Height="25" Source="/Images/tsmc-logo.png" Margin="5,5,0,5" RelativePanel.AlignLeftWithPanel ="True" />
+            <Button x:Name="CallGraphButton" Content="Call Microsoft Graph API" HorizontalAlignment="Right" Padding="5"  Click="CallGraphButton_ClickAsync" Margin="5" FontFamily="Segoe Ui" />
+            <Button x:Name="SignOutButton" Content="Sign-Out" HorizontalAlignment="Right" Padding="5"  Margin="5" Visibility="Collapsed" FontFamily="Segoe Ui" />
+            <TextBlock Text="API Call Results" Margin="0,0,0,-5" FontFamily="Segoe Ui" />
+            <TextBox x:Name="ResultText" TextWrapping="Wrap" MinHeight="120" Margin="5" FontFamily="Segoe Ui"/>
+            <TextBlock Text="Token Info" Margin="0,0,0,-5" FontFamily="Segoe Ui" />
+            <TextBox x:Name="TokenInfoText" TextWrapping="Wrap" MinHeight="70" Margin="5" FontFamily="Segoe Ui"/>
+            <AppBarButton x:Name="LoginButton" Icon="AddFriend" Label="Not Login" Click="LoginBtn_Click"  RelativePanel.AlignRightWithPanel ="True"/>
+        </RelativePanel>-->
 
         <NavigationView Grid.Row="1"
                 x:Name="NavigationViewControl"            
@@ -42,7 +60,7 @@
             <NavigationView.AutoSuggestBox>
                 <AutoSuggestBox QueryIcon="Find"/>
             </NavigationView.AutoSuggestBox>
-            <Frame x:Name="rootFrame"/>
+            <Frame x:Name="rootFrame" BorderBrush="Azure"  BorderThickness="1" CornerRadius="1"/>
         </NavigationView>
     </Grid>
 </Window>

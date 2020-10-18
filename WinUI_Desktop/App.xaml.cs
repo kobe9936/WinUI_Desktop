@@ -16,6 +16,7 @@ using Microsoft.UI.Xaml.Input;
 using Microsoft.UI.Xaml.Media;
 using Microsoft.UI.Xaml.Navigation;
 using Microsoft.UI.Xaml.Shapes;
+using Microsoft.Identity.Client;
 
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
@@ -27,14 +28,17 @@ namespace WinUI_Desktop
     /// </summary>
     public partial class App : Application
     {
-        /// <summary>
-        /// Initializes the singleton application object.  This is the first line of authored code
-        /// executed, and as such is the logical equivalent of main() or WinMain().
-        /// </summary>
+       
         public App()
         {
             this.InitializeComponent();
             this.Suspending += OnSuspending;
+
+            _clientApp = PublicClientApplicationBuilder.Create(ClientId)
+                .WithAuthority($"{Instance}{Tenant}")
+                .WithDefaultRedirectUri()
+                .Build();
+
         }
 
         /// <summary>
@@ -61,5 +65,15 @@ namespace WinUI_Desktop
         }
 
         private Window m_window;
+        private static string ClientId = "4a1aa1d5-c567-49d0-ad0b-cd957a47f842";
+
+        // Note: Tenant is important for the quickstart. We'd need to check with Andre/Portal if we
+        // want to change to the AadAuthorityAudience.
+        private static string Tenant = "common";
+        private static string Instance = "https://login.microsoftonline.com/";
+        private static IPublicClientApplication _clientApp;
+
+        public static IPublicClientApplication PublicClientApp { get { return _clientApp; } }
+
     }
 }

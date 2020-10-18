@@ -1,0 +1,2 @@
+C:\Users\kobe9\source\repos\TestApp\TestApp (Package)\TestApp (Package).wapproj;x86
+C:\Users\kobe9\source\repos\TestApp\TestApp\TestApp.csproj;x86

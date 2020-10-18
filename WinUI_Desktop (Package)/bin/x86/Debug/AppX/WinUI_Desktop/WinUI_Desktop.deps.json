@@ -9,6 +9,7 @@
     ".NETCoreApp,Version=v5.0/win-x86": {
       "WinUI_Desktop/1.0.0": {
         "dependencies": {
+          "Microsoft.Identity.Client": "4.21.0",
           "Microsoft.VCRTForwarders.140": "1.0.6",
           "Microsoft.WinUI": "3.0.0-preview2.200713.0",
           "runtimepack.Microsoft.NETCore.App.Runtime.win-x86": "5.0.0-preview.5.20278.1"
@@ -855,6 +856,14 @@
           }
         }
       },
+      "Microsoft.Identity.Client/4.21.0": {
+        "runtime": {
+          "lib/netcoreapp2.1/Microsoft.Identity.Client.dll": {
+            "assemblyVersion": "4.21.0.0",
+            "fileVersion": "4.21.0.0"
+          }
+        }
+      },
       "Microsoft.VCRTForwarders.140/1.0.6": {},
       "Microsoft.Windows.CsWinRT/0.1.0-prerelease.200629.3": {
         "runtime": {
@@ -899,6 +908,13 @@
       "type": "runtimepack",
       "serviceable": false,
       "sha512": ""
+    },
+    "Microsoft.Identity.Client/4.21.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qVoSUGfIynHWF7Lk9dRJN04AOE8pHabRja6OsiILyirTHxhKLrZ6Ixcbuge0z080kKch3vgy1QpQ53wVNbkBYw==",
+      "path": "microsoft.identity.client/4.21.0",
+      "hashPath": "microsoft.identity.client.4.21.0.nupkg.sha512"
     },
     "Microsoft.VCRTForwarders.140/1.0.6": {
       "type": "package",

@@ -1,0 +1,2 @@
+C:\Users\kobe9\source\repos\WinUI_Desktop\TestApp (Package)\TestApp (Package).wapproj;x64
+C:\Users\kobe9\source\repos\WinUI_Desktop\TestApp\TestApp.csproj;x64

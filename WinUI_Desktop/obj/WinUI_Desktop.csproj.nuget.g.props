@@ -5,7 +5,7 @@
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Admin\.nuget\packages\</NuGetPackageFolders>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\kobe9\.nuget\packages\</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
     <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.7.0</NuGetToolVersion>
   </PropertyGroup>
@@ -20,6 +20,6 @@
     <Import Project="$(NuGetPackageRoot)microsoft.winui\3.0.0-preview2.200713.0\build\Microsoft.WinUI.props" Condition="Exists('$(NuGetPackageRoot)microsoft.winui\3.0.0-preview2.200713.0\build\Microsoft.WinUI.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgMicrosoft_WinUI Condition=" '$(PkgMicrosoft_WinUI)' == '' ">C:\Users\Admin\.nuget\packages\microsoft.winui\3.0.0-preview2.200713.0</PkgMicrosoft_WinUI>
+    <PkgMicrosoft_WinUI Condition=" '$(PkgMicrosoft_WinUI)' == '' ">C:\Users\kobe9\.nuget\packages\microsoft.winui\3.0.0-preview2.200713.0</PkgMicrosoft_WinUI>
   </PropertyGroup>
 </Project>

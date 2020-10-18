@@ -26,13 +26,17 @@ namespace WinUI_Desktop
         public WebPage()
         {
             this.InitializeComponent();
-            WebActive();
+            WebActiveAsync();
         }
 
-        private async void WebActive()
+        private async void WebActiveAsync()
         {
             var storageFile = await Windows.Storage.StorageFile.GetFileFromApplicationUriAsync(new Uri("ms-appx:///Web/index.html"));
             WebWebView.Source = new Uri(storageFile.Path);
+        }
+        private async void Button_ClickAsync(object sender, RoutedEventArgs e)
+        {
+            await WebWebView.ExecuteScriptAsync($"alert(' is not safe, try an https link')");
         }
     }
 }

@@ -9,11 +9,6 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
-        <TextBlock x:Name="DisplayText" Text="test"/>
-        <WebView2  Grid.Row="1" x:Name="WebWebView" />
+        <WebView2 x:Name="WebWebView"/>
     </Grid>
 </Page>
