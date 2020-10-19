@@ -586,16 +586,16 @@ C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\obj\x86\Debug\
 C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\obj\x86\Debug\WinUI_Desktop (Package).wapproj.LastBuild.txt
 C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\bin\x86\Debug\WinUI_Desktop\MainWindow.xbf
-C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\bin\x86\Debug\WinUI_Desktop\MicrosoftHomePage.xbf
 C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\bin\x86\Debug\WinUI_Desktop\MicrosoftHomePage.xbf
 C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\bin\x86\Debug\WinUI_Desktop\HomePage.xbf
 C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\bin\x86\Debug\WinUI_Desktop\GooglePage.xbf
 C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\bin\x86\Debug\WinUI_Desktop\GooglePage.xbf
 C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\bin\x86\Debug\WinUI_Desktop\HomePage.xbf
 C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\bin\x86\Debug\WinUI_Desktop\LoginPage.xbf
-C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\bin\x86\Debug\WinUI_Desktop\WebPage.xbf
-C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\obj\x86\Debug\eukhatem.5lw\Microsoft.UI.Xaml.Controls.pri.xml
 C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\bin\x86\Debug\WinUI_Desktop\LoginPage.xbf
 C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\bin\x86\Debug\WinUI_Desktop\WebPage.xbf
 C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\bin\x86\Debug\WinUI_Desktop\Microsoft.Identity.Client.dll
 C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\obj\x86\Debug\hxbsci10.vsw\Microsoft.UI.Xaml.Controls.pri.xml
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\bin\x86\Debug\WinUI_Desktop\Microsoft.Identity.Client.dll
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\bin\x86\Debug\WinUI_Desktop\LocalWebPage.xbf
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\obj\x86\Debug\0mc0yopk.pd0\Microsoft.UI.Xaml.Controls.pri.xml

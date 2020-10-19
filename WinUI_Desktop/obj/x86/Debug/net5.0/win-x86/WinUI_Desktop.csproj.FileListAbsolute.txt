@@ -307,12 +307,6 @@ C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\obj\x86\Debug\net5.0\win
 C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\obj\x86\Debug\net5.0\win-x86\qualifiers.txt
 C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\obj\x86\Debug\net5.0\win-x86\qualifiers.txt.intermediate
 C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\obj\x86\Debug\net5.0\win-x86\MultipleQualifiersPerDimensionFound.txt
-C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\obj\x86\Debug\net5.0\win-x86\MicrosoftHomePage.g.i.cs
-C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\obj\x86\Debug\net5.0\win-x86\MicrosoftHomePage.g.cs
-C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\obj\x86\Debug\net5.0\win-x86\MicrosoftHomePage.xaml
-C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\obj\x86\Debug\net5.0\win-x86\MicrosoftHomePage.xbf
-C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\WinUI_Desktop\MicrosoftHomePage.xbf
-C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\MicrosoftHomePage.xbf
 C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\Microsoft.UI.Xaml\Assets\NoiseAsset_256X256_PNG.png
 C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\WinUI_Desktop\App.xbf
 C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\WinUI_Desktop\MainWindow.xbf
@@ -658,12 +652,6 @@ C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\obj\x86\Debug\net5.0\win
 C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\obj\x86\Debug\net5.0\win-x86\LoginPage.xbf
 C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\WinUI_Desktop\LoginPage.xbf
 C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\LoginPage.xbf
-C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\WinUI_Desktop\WebPage.xbf
-C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\WebPage.xbf
-C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\obj\x86\Debug\net5.0\win-x86\WebPage.g.i.cs
-C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\obj\x86\Debug\net5.0\win-x86\WebPage.g.cs
-C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\obj\x86\Debug\net5.0\win-x86\WebPage.xaml
-C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\obj\x86\Debug\net5.0\win-x86\WebPage.xbf
 C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\WinUI_Desktop\LoginPage.xbf
 C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\WinUI_Desktop\WebPage.xbf
 C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\LoginPage.xbf
@@ -677,3 +665,10 @@ C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop\obj\x86\Debug\net5.0\win
 C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop\obj\x86\Debug\net5.0\win-x86\LoginPage.xbf
 C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop\obj\x86\Debug\net5.0\win-x86\WebPage.xbf
 C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\Microsoft.Identity.Client.dll
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\Microsoft.Identity.Client.dll
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\obj\x86\Debug\net5.0\win-x86\LocalWebPage.g.i.cs
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\obj\x86\Debug\net5.0\win-x86\LocalWebPage.g.cs
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\obj\x86\Debug\net5.0\win-x86\LocalWebPage.xaml
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\obj\x86\Debug\net5.0\win-x86\LocalWebPage.xbf
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\WinUI_Desktop\LocalWebPage.xbf
+C:\Users\Admin\source\repos\WinUI_Desktop\WinUI_Desktop\bin\x86\Debug\net5.0\win-x86\LocalWebPage.xbf

@@ -19,6 +19,11 @@
 						<Value>WinUI_Desktop\HomePage.xbf</Value>
 					</Candidate>
 				</NamedResource>
+				<NamedResource name="LocalWebPage.xbf" uri="ms-resource://WinUI_Desktop/Files/WinUI_Desktop/LocalWebPage.xbf">
+					<Candidate type="Path">
+						<Value>WinUI_Desktop\LocalWebPage.xbf</Value>
+					</Candidate>
+				</NamedResource>
 				<NamedResource name="LoginPage.xbf" uri="ms-resource://WinUI_Desktop/Files/WinUI_Desktop/LoginPage.xbf">
 					<Candidate type="Path">
 						<Value>WinUI_Desktop\LoginPage.xbf</Value>
@@ -27,16 +32,6 @@
 				<NamedResource name="MainWindow.xbf" uri="ms-resource://WinUI_Desktop/Files/WinUI_Desktop/MainWindow.xbf">
 					<Candidate type="Path">
 						<Value>WinUI_Desktop\MainWindow.xbf</Value>
-					</Candidate>
-				</NamedResource>
-				<NamedResource name="MicrosoftHomePage.xbf" uri="ms-resource://WinUI_Desktop/Files/WinUI_Desktop/MicrosoftHomePage.xbf">
-					<Candidate type="Path">
-						<Value>WinUI_Desktop\MicrosoftHomePage.xbf</Value>
-					</Candidate>
-				</NamedResource>
-				<NamedResource name="WebPage.xbf" uri="ms-resource://WinUI_Desktop/Files/WinUI_Desktop/WebPage.xbf">
-					<Candidate type="Path">
-						<Value>WinUI_Desktop\WebPage.xbf</Value>
 					</Candidate>
 				</NamedResource>
 			</ResourceMapSubtree>

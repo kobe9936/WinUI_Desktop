@@ -13,36 +13,20 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Background="{ThemeResource NavigationViewDefaultPaneBackground}">
-            <Image x:Name="TSMCLogo" Stretch="Uniform" Height="25" Source="/Images/tsmc-logo.png" Margin="5,5,0,5" RelativePanel.AlignLeftWithPanel ="True" />
-            <Button x:Name="CallGraphButton" Content="Call Microsoft Graph API" HorizontalAlignment="Right" Padding="5"  Click="CallGraphButton_ClickAsync" Margin="5" FontFamily="Segoe Ui" />
-            <Button x:Name="SignOutButton" Content="Sign-Out" HorizontalAlignment="Right" Padding="5"  Margin="5" Visibility="Collapsed" FontFamily="Segoe Ui" />
-            <TextBlock Text="API Call Results" Margin="0,0,0,-5" FontFamily="Segoe Ui" />
-            <TextBox x:Name="ResultText" TextWrapping="Wrap" MinHeight="120" Margin="5" FontFamily="Segoe Ui"/>
-            <TextBlock Text="Token Info" Margin="0,0,0,-5" FontFamily="Segoe Ui" />
-            <TextBox x:Name="TokenInfoText" TextWrapping="Wrap" MinHeight="70" Margin="5" FontFamily="Segoe Ui"/>
-            <AppBarButton x:Name="LoginButton" Icon="AddFriend" Label="Not Login" Click="LoginBtn_Click"  RelativePanel.AlignRightWithPanel ="True"/>
-        </StackPanel>
-
-
-        <!--<RelativePanel Height="35" Background="{ThemeResource NavigationViewDefaultPaneBackground}" >
-            <Image x:Name="TSMCLogo" Stretch="Uniform" Height="25" Source="/Images/tsmc-logo.png" Margin="5,5,0,5" RelativePanel.AlignLeftWithPanel ="True" />
-            <Button x:Name="CallGraphButton" Content="Call Microsoft Graph API" HorizontalAlignment="Right" Padding="5"  Click="CallGraphButton_ClickAsync" Margin="5" FontFamily="Segoe Ui" />
-            <Button x:Name="SignOutButton" Content="Sign-Out" HorizontalAlignment="Right" Padding="5"  Margin="5" Visibility="Collapsed" FontFamily="Segoe Ui" />
-            <TextBlock Text="API Call Results" Margin="0,0,0,-5" FontFamily="Segoe Ui" />
-            <TextBox x:Name="ResultText" TextWrapping="Wrap" MinHeight="120" Margin="5" FontFamily="Segoe Ui"/>
-            <TextBlock Text="Token Info" Margin="0,0,0,-5" FontFamily="Segoe Ui" />
-            <TextBox x:Name="TokenInfoText" TextWrapping="Wrap" MinHeight="70" Margin="5" FontFamily="Segoe Ui"/>
-            <AppBarButton x:Name="LoginButton" Icon="AddFriend" Label="Not Login" Click="LoginBtn_Click"  RelativePanel.AlignRightWithPanel ="True"/>
-        </RelativePanel>-->
-
+        <RelativePanel Height="50" Background="{ThemeResource NavigationViewDefaultPaneBackground}">
+            <Image x:Name="TSMCLogo" Stretch="Uniform" Height="25" Source="/Images/tsmc-logo.png" Margin="4,10,4,10" RelativePanel.AlignLeftWithPanel ="True" />
+            <AppBarButton x:Name="LoginButton" Icon="AddFriend" Label="Login" Click="LoginBtn_Click"  RelativePanel.AlignRightWithPanel ="True"/>
+        </RelativePanel>
         <NavigationView Grid.Row="1"
                 x:Name="NavigationViewControl"            
-                ItemInvoked="NavView_ItemInvoked">
+                ItemInvoked="NavView_ItemInvoked"
+                IsSettingsVisible="False" 
+                IsBackButtonVisible="Collapsed"
+                PaneTitle="TSMC Desktop App (WinUI 3 preview2)">
             <NavigationView.MenuItems>
                 <NavigationViewItem Icon="Home" Content="Home" x:Name="NavViewItem_Home"/>
-                <NavigationViewItem Icon="Globe" Content="Microsoft" x:Name="NavViewItem_Microsoft"/>
-                <NavigationViewItem Icon="World" Content="Web" x:Name="NavViewItem_Web"/>
+                <NavigationViewItem Icon="World" Content="Google" x:Name="NavViewItem_Google"/>
+                <NavigationViewItem Icon="PreviewLink" Content="LocalWeb" x:Name="NavViewItem_LocalWeb"/>
                 <NavigationViewItem Icon="AllApps" Content="Controls"/>
                 <NavigationViewItem Icon="Copy" Content="Copy"/>
                 <NavigationViewItem Icon="Delete" Content="Delete"/>
@@ -60,6 +44,9 @@
             <NavigationView.AutoSuggestBox>
                 <AutoSuggestBox QueryIcon="Find"/>
             </NavigationView.AutoSuggestBox>
+            <NavigationView.PaneFooter>
+                <NavigationViewItem Icon="Setting" Content="Setting"/>
+            </NavigationView.PaneFooter>
             <Frame x:Name="rootFrame" BorderBrush="Azure"  BorderThickness="1" CornerRadius="1"/>
         </NavigationView>
     </Grid>

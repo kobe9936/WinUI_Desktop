@@ -33,12 +33,14 @@ namespace WinUI_Desktop
         {
             this.InitializeComponent();
             this.Suspending += OnSuspending;
+        }
 
+        static App()
+        {
             _clientApp = PublicClientApplicationBuilder.Create(ClientId)
-                .WithAuthority($"{Instance}{Tenant}")
-                .WithDefaultRedirectUri()
-                .Build();
-
+               .WithAuthority($"{Instance}{Tenant}")
+               .WithDefaultRedirectUri()
+               .Build();
         }
 
         /// <summary>
@@ -65,14 +67,12 @@ namespace WinUI_Desktop
         }
 
         private Window m_window;
-        private static string ClientId = "4a1aa1d5-c567-49d0-ad0b-cd957a47f842";
-
+        private static string ClientId = "0708f526-5d99-432d-ace8-be7e6bbd963f";
         // Note: Tenant is important for the quickstart. We'd need to check with Andre/Portal if we
         // want to change to the AadAuthorityAudience.
-        private static string Tenant = "common";
+        private static string Tenant = "223bcf98-a4ce-4db8-998b-30fb36bd589a";
         private static string Instance = "https://login.microsoftonline.com/";
         private static IPublicClientApplication _clientApp;
-
         public static IPublicClientApplication PublicClientApp { get { return _clientApp; } }
 
     }

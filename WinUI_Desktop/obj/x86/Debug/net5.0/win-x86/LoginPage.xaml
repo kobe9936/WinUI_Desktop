@@ -9,7 +9,30 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <WebView2 x:ConnectionId='2' x:Name="LoginWebView"  Source = "https://azure-oauth2-sample.herokuapp.com/"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <RichTextBlock HorizontalAlignment="Center">
+            <Paragraph >
+                <Run  FontSize="28" FontWeight="Bold" FontFamily="Segoe Ui">
+                    Login Info
+                </Run>
+            </Paragraph>
+        </RichTextBlock>
+        <StackPanel Grid.Row="1">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" >
+                <Button x:ConnectionId='4' x:Name="CallGraphButton" Content="Call Microsoft Graph API"                                HorizontalAlignment="Right" Padding="5"  Margin="5" FontFamily="Segoe Ui"/>
+                <Button x:ConnectionId='5' x:Name="SignOutButton" Content="Sign-Out" HorizontalAlignment="Right" Padding="5"                              Margin="5" Visibility="Collapsed" FontFamily="Segoe Ui"/>
+            </StackPanel>
+            <TextBlock Text="API Call Results" Margin="0,0,0,-5" TextAlignment="Center" FontFamily="Segoe Ui" />
+            <TextBox x:ConnectionId='2' x:Name="ResultText" TextWrapping="Wrap" MinHeight="70" Margin="5" FontFamily="Segoe Ui"/>
+            <TextBlock Text="Token Info" Margin="0,0,0,-5" TextAlignment="Center" FontFamily="Segoe Ui" />
+            <TextBox x:ConnectionId='3' x:Name="TokenInfoText" TextWrapping="Wrap" MinHeight="70" Margin="5" FontFamily="Segoe Ui"/>
+        </StackPanel>
     </Grid>
+    
 </Page>
+ 
 
