@@ -5,6 +5,7 @@ languages:
   - xaml
 products:
   - windows desktop
+  - WPF
   - Azure Active Directory
 description: Demonstrates WinUI3 Desktop App Interface with new features like WebView2 and NavigationView. Demonstrates OAuth2 for third-party authentication with Azure Active Directory.
 ---
