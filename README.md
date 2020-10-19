@@ -33,7 +33,7 @@ private static string Tenant = "223bcf98-a4ce-4db8-998b-30fb36bd589a";
 [Windows UI Library 3 Preview 2 (July 2020)](https://docs.microsoft.com/en-us/windows/apps/winui/winui3)                                
 [Windows UI Library 2.x (WinUI)](https://docs.microsoft.com/uwp/toolkits/winui/)                                      
 [Azure AD Authentication in WPF Application using MSAL](https://manojchoudhari.wordpress.com/2020/05/29/azure-ad-authentication-in-wpf-application-using-msal/)              
-[Active-directory-scenario-desktop-acquire-token](https://docs.microsoft.com/zh-tw/azure/active-directory/develop/scenario-desktop-acquire-token?tabs=dotnet)
+[Active-directory-scenario-desktop-acquire-token](https://docs.microsoft.com/zh-tw/azure/active-directory/develop/scenario-desktop-acquire-token?tabs=dotnet)              
 [Application types for Microsoft identity platform](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-app-types)
 
 ## Related samples
