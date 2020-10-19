@@ -6,7 +6,8 @@ languages:
 products:
   - windows WPF
   - Azure Active Directory
-description: 1. Demonstrates WinUI3 Desktop App Interface with new features like WebView2 and NavigationView 2. Demonstrates OAuth2 for third-party authentication with Azure Active Directory.
+description: 1. Demonstrates WinUI3 Desktop App Interface with new features like WebView2 and NavigationView 
+2. Demonstrates OAuth2 for third-party authentication with Azure Active Directory.
 ---
 
 # WinUI3 
@@ -29,14 +30,10 @@ private static string Tenant = "223bcf98-a4ce-4db8-998b-30fb36bd589a";
 
 
 [Windows UI Library 3 Preview 2 (July 2020)](https://docs.microsoft.com/en-us/windows/apps/winui/winui3)
-
 [Windows UI Library 2.x (WinUI)](https://docs.microsoft.com/uwp/toolkits/winui/)
-
 [Azure AD Authentication in WPF Application using MSAL](https://manojchoudhari.wordpress.com/2020/05/29/azure-ad-authentication-in-wpf-application-using-msal/)
-
 [Active-directory-scenario-desktop-acquire-token](https://docs.microsoft.com/zh-tw/azure/active-directory/develop/scenario-desktop-acquire-token?tabs=dotnet)
 
 ## Related samples
 [WinUI3 XAML Controls Gallery](https://github.com/microsoft/Xaml-Controls-Gallery/tree/winui3preview)
-
 [Quickstart: Acquire a token and call Microsoft Graph API from a Windows desktop app](https://docs.microsoft.com/zh-tw/azure/active-directory/develop/quickstart-v2-windows-desktop)  
