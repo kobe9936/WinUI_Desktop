@@ -18,6 +18,10 @@ Shows WinUI3.0 with WebView2 and NavigationView controls. This App is a template
 
 # OAuth2
 
+### OAuth2 for Native Apps scenario 
+![Native Apps Screenshot](README_Images/convergence-scenarios-native.png)
+
+
 It also has a OAuth2 implementation for third-party authentication with Azure Active Directory. To use this favor, you should register your own App in [Azure Active Directory](https://azure.microsoft.com/zh-tw/services/active-directory/) and mark the clientID and Tenant in your code. 
 
 ```csharp 
@@ -30,6 +34,7 @@ private static string Tenant = "223bcf98-a4ce-4db8-998b-30fb36bd589a";
 [Windows UI Library 2.x (WinUI)](https://docs.microsoft.com/uwp/toolkits/winui/)                                      
 [Azure AD Authentication in WPF Application using MSAL](https://manojchoudhari.wordpress.com/2020/05/29/azure-ad-authentication-in-wpf-application-using-msal/)              
 [Active-directory-scenario-desktop-acquire-token](https://docs.microsoft.com/zh-tw/azure/active-directory/develop/scenario-desktop-acquire-token?tabs=dotnet)
+[Application types for Microsoft identity platform](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-app-types)
 
 ## Related samples
 [WinUI3 XAML Controls Gallery](https://github.com/microsoft/Xaml-Controls-Gallery/tree/winui3preview)                             
