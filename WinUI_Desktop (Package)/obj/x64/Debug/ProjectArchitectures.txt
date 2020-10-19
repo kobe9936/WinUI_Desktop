@@ -1,2 +1,0 @@
-C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop (Package)\WinUI_Desktop (Package).wapproj;x64
-C:\Users\kobe9\source\repos\WinUI_Desktop\WinUI_Desktop\WinUI_Desktop.csproj;x64
