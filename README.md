@@ -22,7 +22,7 @@ Shows WinUI3.0 with WebView2 and NavigationView controls. This App is a template
 ![Native Apps Screenshot](README_Images/convergence-scenarios-native.png)
 
 
-It also has a OAuth2 implementation for third-party authentication with Azure Active Directory. To use this favor, you should register your own App in [Azure Active Directory](https://azure.microsoft.com/zh-tw/services/active-directory/) and mark the clientID and Tenant in your code. 
+It also has an OAuth2 implementation for third-party authentication with Azure Active Directory. To use this favor, you should register your own App in [Azure Active Directory](https://azure.microsoft.com/zh-tw/services/active-directory/) and mark the clientID and Tenant in your code. 
 
 ```csharp 
 private static string ClientId = "0708f526-5d99-432d-ace8-be7e6bbd963f";
