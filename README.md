@@ -6,8 +6,7 @@ languages:
 products:
   - windows WPF
   - Azure Active Directory
-description: 1. Demonstrates WinUI3 Desktop App Interface with new features like WebView2 and NavigationView 
-2. Demonstrates OAuth2 for third-party authentication with Azure Active Directory.
+description: Demonstrates WinUI3 Desktop App Interface with new features like WebView2 and NavigationView. Demonstrates OAuth2 for third-party authentication with Azure Active Directory.
 ---
 
 # WinUI3 
@@ -21,7 +20,7 @@ Shows WinUI3.0 with WebView2 and NavigationView controls. This App is a template
 
 It also has a OAuth2 implementation for third-party authentication with Azure Active Directory. To use this favor, you should register your own App in [Azure Active Directory](https://azure.microsoft.com/zh-tw/services/active-directory/) and mark the clientID and Tenant in your code. 
 
-```=C#
+```csharp 
 private static string ClientId = "0708f526-5d99-432d-ace8-be7e6bbd963f";
 private static string Tenant = "223bcf98-a4ce-4db8-998b-30fb36bd589a";
 ```
