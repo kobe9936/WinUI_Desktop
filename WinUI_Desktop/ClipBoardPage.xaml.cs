@@ -26,6 +26,11 @@ namespace WinUI_Desktop
         public ClipBoardPage()
         {
             this.InitializeComponent();
+            jump_TextCopy();
+        }
+        private void jump_TextCopy()
+        {
+            ClipBoardPageFrame.Navigate(typeof(Clipboard.TextCopy));
         }
     }
 }
