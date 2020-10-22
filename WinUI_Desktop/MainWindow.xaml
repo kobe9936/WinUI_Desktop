@@ -27,8 +27,8 @@
                 <NavigationViewItem Icon="Home" Content="Home" x:Name="NavViewItem_Home"/>
                 <NavigationViewItem Icon="World" Content="Google" x:Name="NavViewItem_Google"/>
                 <NavigationViewItem Icon="PreviewLink" Content="LocalWeb" x:Name="NavViewItem_LocalWeb"/>
+                <NavigationViewItem Icon="Copy" Content="Clipboard" x:Name="NavViewItem_ClipBoard"/>
                 <NavigationViewItem Icon="AllApps" Content="Controls"/>
-                <NavigationViewItem Icon="Copy" Content="Copy"/>
                 <NavigationViewItem Icon="Delete" Content="Delete"/>
                 <NavigationViewItem Icon="Phone" Content="Phone"/>
                 <NavigationViewItem Icon="Refresh" Content="Refresh"/>

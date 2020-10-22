@@ -49,6 +49,8 @@ namespace WinUI_Desktop
                 pageType = typeof(GooglePage);
             else if (invokedItem == NavViewItem_LocalWeb)
                 pageType = typeof(LocalWebPage);
+            else if (invokedItem == NavViewItem_ClipBoard)
+                pageType = typeof(ClipBoardPage);
             rootFrame.Navigate(pageType);
         }
     }

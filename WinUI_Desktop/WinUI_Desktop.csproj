@@ -12,6 +12,10 @@
     <RuntimeIdentifiers>win-x86;win-x64</RuntimeIdentifiers>
     <RuntimeIdentifier>win-$(Platform)</RuntimeIdentifier>
   </PropertyGroup>
+  <ItemGroup>
+    <None Remove="ClipBoard.xaml" />
+    <None Remove="ClipBoardPage.xaml" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Identity.Client" Version="4.21.0" />
@@ -34,6 +38,22 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Update="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Clipboard\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="ClipBoardPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="ClipboardPage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
