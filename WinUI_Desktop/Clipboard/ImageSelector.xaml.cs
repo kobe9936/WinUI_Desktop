@@ -15,6 +15,7 @@ using Microsoft.UI.Xaml.Navigation;
 using System.Diagnostics;
 using System.Drawing;
 using Microsoft.UI;
+using Windows.Storage;
 
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
@@ -42,18 +43,16 @@ namespace WinUI_Desktop.Clipboard
 
             try
             {
+                var picturelib = Environment.GetFolderPath(Environment.SpecialFolder.MyPictures);
                 // Only get files that begin with the letter "jpg" or "png".
-                IEnumerable<string> dirs = Directory.GetFiles(@"C:\Users\User\Pictures\", "*.*", SearchOption.AllDirectories).Where(s => s.EndsWith(".png") || s.EndsWith(".jpg")); ;
+                IEnumerable<string> dirs = Directory.GetFiles(picturelib.ToString(), "*.*", SearchOption.AllDirectories).Where(s => s.EndsWith(".png") || s.EndsWith(".jpg")); ;
                 //add item to UI
                 ListView UserImages = new ListView();
                 
                 foreach (string dir in dirs)
                 {
 
-                    Debug.WriteLine(dir);
                     UserImages.Items.Add(dir);
-                    
-                    
                     UserImages.Background = new SolidColorBrush(Colors.Black); 
                 }
                 

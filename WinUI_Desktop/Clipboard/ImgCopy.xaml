@@ -12,11 +12,11 @@
 
         <Grid x:Name="LayoutRoot" Background="#3C3C3C" Width="Auto" Height="455">
             <Grid.RowDefinitions>
-                <RowDefinition Height="410" />
-                <RowDefinition Height="45" />
+                <RowDefinition Height="400" />
+                <RowDefinition Height="55" />
             </Grid.RowDefinitions>
 
-            <CommandBar Grid.Row="1" Height="Auto" Width="Auto" VerticalAlignment="BOTTOM" Margin="0" >
+            <CommandBar Grid.Row="1" Height="Auto" Width="Auto" VerticalAlignment="BOTTOM" Margin="0">
                 <AppBarToggleButton x:Name="btnCutImg" Icon="Cut" Label="Cut"  />
                 <AppBarToggleButton x:Name="btnCopyImg"  Icon="Copy" Label="Copy" />
                 <AppBarToggleButton x:Name="btnPasteImg" Icon="Paste" Label="Paste" />
@@ -50,16 +50,11 @@
                 </Grid.ColumnDefinitions>
 
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="350" />
-                    <RowDefinition Height="50" />
+                    <RowDefinition Height="400" />
                 </Grid.RowDefinitions>
 
-                <StackPanel Grid.Row="0" Grid.Column="1"  Grid.ColumnSpan="10"   VerticalAlignment="Top" HorizontalAlignment="Center">
-                    <Image x:Name="OutputImage"  Visibility="Collapsed" MaxHeight="350" MaxWidth="800"/>
-                </StackPanel>
-
-                <StackPanel Grid.Row="1" Grid.Column="1"  Grid.ColumnSpan="8"  VerticalAlignment="Center" HorizontalAlignment="Left">
-                    <TextBlock x:Name="Message_area"  Foreground="White" FontFamily="Verdana" LineStackingStrategy="MaxHeight" Margin="20,5,10,5"  LineHeight="10"  Width="800" TextAlignment="Center" TextWrapping="Wrap"/>
+                <StackPanel Grid.Row="0" Grid.Column="0"  Grid.ColumnSpan="10"   VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <Image x:Name="OutputImage"  Visibility="Collapsed" MaxHeight="400" MaxWidth="800"/>
                 </StackPanel>
 
             </Grid>

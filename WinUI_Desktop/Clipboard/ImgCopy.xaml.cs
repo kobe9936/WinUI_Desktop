@@ -30,8 +30,9 @@ namespace WinUI_Desktop.Clipboard
     {
 
         public static string operationStatus = "";
-        public static string userCopyImage = "";
-
+        public static string userCopyImagePath = "";
+        public static StorageFile file;
+        DataPackage dataPackage ;
         public ImgCopy()
         {
             this.InitializeComponent();
@@ -39,6 +40,7 @@ namespace WinUI_Desktop.Clipboard
         }
         void Init()
         {
+            dataPackage = new DataPackage();
             btnCutImg.Click += new RoutedEventHandler(btnCutImg_Click);
             btnCopyImg.Click += new RoutedEventHandler(btnCopyImg_Click);
             btnPasteImg.Click += new RoutedEventHandler(btnPasteImg_Click);
@@ -47,13 +49,14 @@ namespace WinUI_Desktop.Clipboard
 
         public void btnCopyImg_Click(object sender, RoutedEventArgs e)
         {
+            
             btnCopyImg.IsChecked = false;
             operationStatus = "Copy";
             jump_FilePicerPage();
 
         }
 
-        DataPackage dataPackage = new DataPackage();
+       
         public async void btnCutImg_Click(object sender, RoutedEventArgs e)
         {
             btnCutImg.IsChecked = false;
@@ -65,50 +68,32 @@ namespace WinUI_Desktop.Clipboard
         public async void btnPasteImg_Click(object sender, RoutedEventArgs e)
         {
 
-            GC.Collect();
-            Windows.ApplicationModel.DataTransfer.Clipboard.Clear();
-            StorageFile file = null;
-            dataPackage = new DataPackage();
-
-
-            if (userCopyImage != "")
+                
+            var dataPackageView = Windows.ApplicationModel.DataTransfer.Clipboard.GetContent();
+            if (dataPackageView.Contains(StandardDataFormats.Bitmap))
             {
-                Message_area.Text = userCopyImage;
-                string path = userCopyImage;
-                file = await StorageFile.GetFileFromPathAsync(path);
-
-
-                dataPackage.SetBitmap(RandomAccessStreamReference.CreateFromFile(file));
-                Windows.ApplicationModel.DataTransfer.Clipboard.SetContent(dataPackage);
-                var dataPackageView = Windows.ApplicationModel.DataTransfer.Clipboard.GetContent();
-                if (dataPackageView.Contains(StandardDataFormats.Bitmap))
+                IRandomAccessStreamReference imageReceived = null;
+                imageReceived = await dataPackageView.GetBitmapAsync();
+                using (var imageStream = await imageReceived.OpenReadAsync())
                 {
-                    IRandomAccessStreamReference imageReceived = null;
-                    imageReceived = await dataPackageView.GetBitmapAsync();
-                    using (var imageStream = await imageReceived.OpenReadAsync())
-                    {
-                        var bitmapImage = new BitmapImage();
-                        bitmapImage.SetSource(imageStream);
-                        OutputImage.Source = bitmapImage;
-                        OutputImage.Visibility = Visibility.Visible;
-
-                    }
-                    if (file != null && "Cut".Equals(operationStatus))
-                    {
-                        Debug.WriteLine("Delete");
-                        await file.DeleteAsync();
-                    }
+                    var bitmapImage = new BitmapImage();
+                    bitmapImage.SetSource(imageStream);
+                    OutputImage.Source = bitmapImage;
+                    OutputImage.Visibility = Visibility.Visible;
 
                 }
-                else
+                if (file != null && "Cut".Equals(operationStatus))
                 {
-                    Debug.WriteLine("DataPakage error!! ");
+                    Debug.WriteLine("Delete");
+                    await file.DeleteAsync();
                 }
+
             }
             else
             {
-                Message_area.Text = "Please use copy btn to copy.";
+                Debug.WriteLine("DataPakage error!! ");
             }
+            
         }
 
         private void jump_FilePicerPage()
@@ -122,7 +107,7 @@ namespace WinUI_Desktop.Clipboard
 
         }
 
-        protected override void OnNavigatedTo(NavigationEventArgs e)
+        protected override async void OnNavigatedTo(NavigationEventArgs e)
         {
 
             base.OnNavigatedTo(e);
@@ -131,11 +116,19 @@ namespace WinUI_Desktop.Clipboard
             string parentPage = parameters.parentPage;
             if ("ImgPicker".Equals(parentPage))
             {
-                userCopyImage = target;
+                userCopyImagePath = target;
+                if (userCopyImagePath != "")
+                {
+                    dataPackage = new DataPackage();
+                    string path = userCopyImagePath;
+                    file = await StorageFile.GetFileFromPathAsync(path);
+                    dataPackage.SetBitmap(RandomAccessStreamReference.CreateFromFile(file));
+                    Windows.ApplicationModel.DataTransfer.Clipboard.SetContent(dataPackage);
+                }
             }
             else
             {
-                userCopyImage = "";
+                userCopyImagePath = "";
             }
 
         }
